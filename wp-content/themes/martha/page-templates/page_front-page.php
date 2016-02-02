@@ -57,7 +57,7 @@ get_header(); ?>
             <div class="roll-counter">
               <i class="fa fa-money"></i>
               <div class="numb-container"><span>$</span><span class="numb-count" data-to="130" data-speed="500" data-waypoint-active="yes">130</span><span>k</span></div>
-              <div class="name-count">Dollars Raised</div>
+              <div class="name-count">Contributed</div>
             </div>
           </div>
 
@@ -81,7 +81,36 @@ get_header(); ?>
             <div class="cd-timeline-content">
               <h2>The Beginning</h2>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+              The Martha Fund is formed as a 501(c)(3) charitable trust fund to honor Martha's sacrifice and celebrate her life. With a Board of Directors and trustees
+              consisting of present of members of Martha's family, Ken Dixon, her father and the retired Allegheny County Director of Elections, served as the
+              Chairman of the Board and one of five trustees until his death in 2000.
+              </p>
+              <span class="cd-date">1995</span>
+            </div>
+          </div>
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+            </div>
+            <div class="cd-timeline-content">
+              <h2>FBI Recognition</h2>
+              <p>
+              On May 21, Martha is posthumously awarded the FBI Memorial Star and Medal of Valor. The plaque accepted by her parents read "The heroic actions of
+              Agent Martinez prevented the possibility of even greater loss of life and serious injury to other law enforcement officials and citizens within the building."
+              </p>
+              <span class="cd-date">1996</span>
+            </div>
+          </div>
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+            </div>
+            <div class="cd-timeline-content">
+              <h2>First Martha's Run</h2>
+              <p>
+              Board members, donors, volunteers, and sponsors work together to organize the first ever Martha's Run.
+              (Any details we have about the first run would be good here. How many runners? How much money was raised?
+              Anything else special?)
               </p>
               <span class="cd-date">1997</span>
             </div>
@@ -91,11 +120,14 @@ get_header(); ?>
             <div class="cd-timeline-img">
             </div>
             <div class="cd-timeline-content">
-              <h2>The Beginning</h2>
+              <h2>For The Kids</h2>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+              Inspired by Martha's love for children, a Kid's Race is added to Martha's Run with great success. In its inaugural year,
+              more than 50 children from the greater Pittsburgh area and beyond had a blast competing for prizes in their age group.
+              Of course, none of them were any match for Brian Dentino, who destroyed the competition and would go on to win 6
+              straight races before rumors of HGH abuse would force the legend himself into a quiet retirement.
               </p>
-              <span class="cd-date">1997</span>
+              <span class="cd-date">2004</span>
             </div>
           </div>
 
@@ -103,11 +135,12 @@ get_header(); ?>
             <div class="cd-timeline-img">
             </div>
             <div class="cd-timeline-content">
-              <h2>The Beginning</h2>
+              <h2>Martha's Playground</h2>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+                On April 7, 2007, the dream of building Martha's Playground was realized with the unveiling of Mount Lebanon's first-ever
+                park, located in the heart of the community where Martha grew up. There is no better place in the neighborhood to enjoy a sunny day.
               </p>
-              <span class="cd-date">1997</span>
+              <span class="cd-date">2007</span>
             </div>
           </div>
 
@@ -115,24 +148,14 @@ get_header(); ?>
             <div class="cd-timeline-img">
             </div>
             <div class="cd-timeline-content">
-              <h2>The Beginning</h2>
+              <h2>Honoring Sam Hicks</h2>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+                In honor of fallen FBI Agent Sam Hicks, who was slain on Nov 19, 2008 while serving a warrant in Allegheny County,
+                Martha's Run law enforcement awards are renamed the Sam Hicks' Memorial Awards. Hicks' family joins us for the race
+                and to present the awards dedicated to his sacrifice. To learn more about Sam Hicks and the Memorial Fund set up
+                by his family and friends in his name, visit <a src="http://www.samhicksmemfund.org/giving_back.shtml">their website</a>
               </p>
-              <span class="cd-date">1997</span>
-            </div>
-          </div>
-
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img">
-            </div>
-            <div class="cd-timeline-content">
-              <h2>The Beginning</h2>
-              <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-              </p>
-              <span class="cd-date">1997</span>
-
+              <span class="cd-date">2009</span>
             </div>
           </div>
 
@@ -171,6 +194,15 @@ get_header(); ?>
             If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:marthafund@gmail.com">marthafund@gmail.com</a>.
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
+
+            <div class="registration-date">
+            The 20th annual Martha's Run will be held on April 9th, 2016. We hope to see you there!
+            </div>
+
+            <div class="registration-button">
+            <a href="#primary" class="roll-button">Sign Up Now</a>
+            </div>
+
           </div>
           <div class="bit-35">
             <img class="course-map" src="https://cldup.com/mopMWqGNbn.png"></img>
@@ -206,6 +238,15 @@ get_header(); ?>
       <section class="projects-section dark">
         <h3 class="section-title">Projects</h3>
         <ul id="categories" class="clr">
+
+          <li>
+            <div data-target="#marthas-playground">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="Marthas-Playground">
+              <div class="overlay" data-target="#marthas-playground"></div>
+              <div class="overlay-hover" data-target="#marthas-playground"></div>
+              <h2 data-target="#marthas-playground">Martha's Playground</h2>
+            </div>
+          </li>
 
           <li>
             <div data-target="#holy-family-institute">

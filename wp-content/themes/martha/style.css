@@ -3018,7 +3018,7 @@ Panels
 	}
 
 	.martha-run-logo {
-    background-image: url('https://cldup.com/0_jnr7KjxP.png');
+    background-image: url('https://cldup.com/P_clXU7eg5.png');
     background-repeat: no-repeat;
     background-size: initial;
     height: 160px;
@@ -3061,6 +3061,42 @@ Panels
   	background-color: transparent;
   	color: #03A9F4;
   	border-color: #03A9F4;
+  }
+
+  .registration-date {
+  	font-weight: 600;
+  	text-align: center;
+  	padding-top: 20px;
+  	font-size: 1.2em;
+  }
+
+  .registration-button {
+  	padding-top: 40px;
+  	text-align: center;
+  }
+
+  .registration-button .roll-button {
+  	color: white;
+  	background-color: #03A9F4;
+  	border-color: #03A9F4;
+  	border-width: 2px;
+  	min-width: 120px;
+    width: 60%;
+    font-size: 1.5em;
+    height: 2em;
+    line-height: 1.1em;
+    text-align: center;
+  }
+  .registration-button .roll-button:hover {
+  	background-color: transparent;
+  	color: #03A9F4;
+  	border-color: #03A9F4;
+  }
+
+  .registration-button .roll-button:active {
+  	background-color: transparent;
+  	color: #EB285A;
+  	border-color: #EB285A;
   }
 
 	.projects-section {
