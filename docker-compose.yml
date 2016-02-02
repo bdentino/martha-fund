@@ -1,0 +1,16 @@
+wordpress:
+  image: wordpress
+  links:
+    - db:mysql
+  ports:
+    - 9090:80
+  volumes:
+    - ./data:/data
+    - ./wp-content/themes/martha:/var/www/html/wp-content/themes/martha
+
+db:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: marthafund
+  volumes:
+    - ./mariadb:/var/lib/mysql
