@@ -24,12 +24,12 @@ function martha_slider_template() {
     //Slider text
     if ( !function_exists('pll_register_string') ) {
         $slider_title_1     = get_theme_mod('slider_title_1', 'Let\'s Make Pittsburgh Smile');
-        $slider_title_2     = get_theme_mod('slider_title_2', 'Ready to begin your journey?');
+        $slider_title_2     = get_theme_mod('slider_title_2');
         $slider_title_3     = get_theme_mod('slider_title_3');
         $slider_title_4     = get_theme_mod('slider_title_4');
         $slider_title_5     = get_theme_mod('slider_title_5');
         $slider_subtitle_1  = get_theme_mod('slider_subtitle_1','Help us build a playground today');
-        $slider_subtitle_2  = get_theme_mod('slider_subtitle_2', 'Click the button below');
+        $slider_subtitle_2  = get_theme_mod('slider_subtitle_2');
         $slider_subtitle_3  = get_theme_mod('slider_subtitle_3');
         $slider_subtitle_4  = get_theme_mod('slider_subtitle_4');
         $slider_subtitle_5  = get_theme_mod('slider_subtitle_5');
@@ -37,12 +37,12 @@ function martha_slider_template() {
         $slider_button_url  = get_theme_mod('slider_button_url','#primary');
     } else {
         $slider_title_1     = pll__(get_theme_mod('slider_title_1', 'Let\'s Make Pittsburgh Smile'));
-        $slider_title_2     = pll__(get_theme_mod('slider_title_2', 'Ready to begin your journey?'));
+        $slider_title_2     = pll__(get_theme_mod('slider_title_2'));
         $slider_title_3     = pll__(get_theme_mod('slider_title_3'));
         $slider_title_4     = pll__(get_theme_mod('slider_title_4'));
         $slider_title_5     = pll__(get_theme_mod('slider_title_5'));
         $slider_subtitle_1  = pll__(get_theme_mod('slider_subtitle_1','Help us build a playground today'));
-        $slider_subtitle_2  = pll__(get_theme_mod('slider_subtitle_2', 'Click the button below'));
+        $slider_subtitle_2  = pll__(get_theme_mod('slider_subtitle_2'));
         $slider_subtitle_3  = pll__(get_theme_mod('slider_subtitle_3'));
         $slider_subtitle_4  = pll__(get_theme_mod('slider_subtitle_4'));
         $slider_subtitle_5  = pll__(get_theme_mod('slider_subtitle_5'));

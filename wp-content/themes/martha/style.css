@@ -3627,6 +3627,12 @@ Panels
 		.text-slider {
 			margin-bottom: 0;
 		}
+		.text-slider .maintitle {
+			font-size: 30px;
+		}
+		.text-slider .subtitle {
+			font-size: 30px;
+		}
 		.martha-run-logo {
 			width: 260px !important;
   	}
