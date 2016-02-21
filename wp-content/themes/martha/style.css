@@ -3628,15 +3628,25 @@ Panels
 			margin-bottom: 0;
 		}
 		.martha-run-logo {
-			width: 260px;
+			width: 260px !important;
   	}
+  	.course-map-container img {
+  		min-width: 270px;
+  		max-width: 270px;
+  		width: 270px;
+  	}
+  	.registration-card .roll-button,
   	.registration-button .roll-button {
-    	font-size: 0.9em;
+    	font-size: 0.7em;
+    	height: 3em;
 		}
 		.last-year-winners {
 			width: 270px;
 		}
 		.course-map {
 			width: 270px;
+		}
+		.fund-sponsor-logo {
+			min-width: 110px;
 		}
 	}
