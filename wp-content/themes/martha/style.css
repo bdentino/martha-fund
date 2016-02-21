@@ -2933,6 +2933,12 @@ Panels
 
 	.about-section {
 		padding: 30px 100px 40px;
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	.about-section .section-title {
+		margin-bottom: 20px;
 	}
 
 	.martha-bust {
@@ -2946,7 +2952,7 @@ Panels
 	}
 
 	.fund-facts-section {
-		background-image: url(https://cldup.com/utFCnUe37O.png);
+		background-image: url(https://cldup.com/HA9Z6nq3ex.jpeg);
 		background-position: 0 !important;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2976,15 +2982,18 @@ Panels
 	}
 
 	.sponsors-section .section-title {
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 
-	.sponsor-logo {
-		background-size: contain;
+	.fund-sponsor-logo {
+    min-width: 150px;
     background-repeat: no-repeat;
-    margin: 30px 0px;
-    min-height: 80px;
+    background-size: contain;
     background-position: center;
+    max-width: 150px;
+    min-height: 80px;
+    display: inline-block;
+    margin: 12px;
 	}
 
 	.timeline-section {
@@ -3004,7 +3013,7 @@ Panels
 	}
 
 	.race-register-section {
-		background-image: url(https://cldup.com/utFCnUe37O.png);
+		background-image: url(https://cldup.com/ykVkc0Mm3X.jpeg);
 		background-position: 0 !important;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3032,7 +3041,7 @@ Panels
     position: relative;
     z-index: 2;
     margin: auto;
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: "Raleway";
     color: rgba(255, 255, 255, 0.85);
     font-weight: 800;
@@ -3066,12 +3075,15 @@ Panels
   .registration-date {
   	font-weight: 600;
   	text-align: center;
-  	padding-top: 20px;
-  	font-size: 1.2em;
+  	padding-top: 40px;
+  	font-size: 1.5em;
+  	margin: auto;
+  	max-width: 400px;
   }
 
   .registration-button {
-  	padding-top: 40px;
+  	padding-top: 30px;
+  	padding-bottom: 10px;
   	text-align: center;
   }
 
@@ -3082,6 +3094,7 @@ Panels
   	border-width: 2px;
   	min-width: 120px;
     width: 60%;
+    max-width: 340px;
     font-size: 1.5em;
     height: 2em;
     line-height: 1.1em;
@@ -3101,6 +3114,131 @@ Panels
 
 	.projects-section {
 		padding: 30px 100px 40px;
+	}
+
+	.support-section {
+		padding: 30px 100px 40px;
+	}
+
+	.thank-you-section {
+		background-image: url(https://cldup.com/qm2bBuREmA.png);
+		background-position: 0 !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 160px;
+		position: relative;
+	}
+
+	.fund-contact {
+		padding: 0px 32px;
+		max-width: 280px;
+	}
+
+	.fund-donate-bottom {
+		display: none;
+	}
+
+	.address-street, .address-city {
+		font-size: 16px;
+		font-family: 'Raleway';
+		line-height: 1.8em;
+	}
+
+	.address-email {
+		padding: 12px 0px 24px;
+	}
+
+	.thank-you {
+    font-size: 60px;
+    min-height: 248px;
+    max-width: 800px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Raleway;
+    color: white;
+    margin: auto;
+    line-height: 1.8em;
+    vertical-align: middle;
+    z-index: 2;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+
+	.support-picture {
+		background-image: url(https://cldup.com/FBGlrTV3Gy.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin: auto;
+		width: 100%;
+		margin-top: 40px;
+		min-height: 300px;
+	}
+
+	.martha-image {
+		background-image: url(http://twt-thumbs.washtimes.com/media/image/2014/11/21/318a0b66c6a50c2d660f6a706700ff26_s878x1229.jpg?63c6577c743cde0efc55adb0cab4cd509013eba5);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin: auto;
+		width: 100%;
+		margin-top: 40px;
+		min-height: 400px;
+	}
+
+	.martha-fbi {
+		background-image: url(https://cldup.com/8bAMLEzp0A.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin: auto;
+		width: 100%;
+		margin-top: 40px;
+		min-height: 300px;
+	}
+
+	.martha-siblings {
+		background-image: url(https://cldup.com/-dTxYkMX0n.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin: auto;
+		width: 100%;
+		margin-top: 40px;
+		min-height: 300px;
+	}
+
+	.martha-playground {
+		background-image: url(https://cldup.com/IE0nE8aVQS.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin: auto;
+		width: 100%;
+		margin-top: 40px;
+		min-height: 300px;
+	}
+
+	.last-year-winners {
+    background-image: url(https://cldup.com/3x3qnytTXL.jpeg);
+    background-position: 0 !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 340px;
+    margin: auto;
+    width: 340px;
+    margin-top: 30px;
+	}
+
+	.caption {
+		font-size: 14px;
+		text-align: center;
+		margin: auto;
+		margin-bottom: 20px;
+		color: #EC225C;
 	}
 
 	.bit-65 { width: 65%; }
@@ -3136,10 +3274,10 @@ Panels
 			background-position: top center!important;
 		}
 		.roll-counter i {
-			font-size: 32px;
+			font-size: 50px;
 		}
 		.roll-counter .numb-container {
-			font-size: 24px;
+			font-size: 40px;
 		}
 		.masonry-layout .hentry {
 			width: 345px;
@@ -3238,6 +3376,89 @@ Panels
 			background-position: top center!important;
 		}
 	}
+
+	@media only screen and (max-width: 1200px) {
+		.bit-40.course-map-container {
+			width: 100%;
+			max-width: 100%;
+			text-align: center;
+		}
+		.bit-40.course-map-container img {
+			max-width: 500px;
+		}
+		.bit-60.race-registration-container {
+			width: 100%;
+			padding-bottom: 50px;
+		}
+		.bit-60.race-registration-container .registration-button {
+			padding-top: 20px;
+		}
+	}
+
+	@media only screen and (max-width: 920px) {
+		.timeline-section {
+    	padding: 30px 40px;
+		}
+		.about-section {
+    	padding: 30px 40px;
+		}
+		.run-section {
+    	padding: 30px 40px;
+		}
+		.projects-section {
+			padding: 30px 40px;
+		}
+		.support-section {
+			padding: 30px 40px;
+		}
+
+		.fund-donate-bottom {
+			display: block;
+	    background-color: rgba(244, 61, 110, 0.1);
+		}
+
+		.fund-contact {
+			display: none;
+		}
+
+		.fund-contact-bottom {
+	    width: 100%;
+	    max-width: 500px;
+	    padding: 30px 0px;
+	    text-align: center;
+	    border-radius: 4px;
+	    margin: auto;
+	    margin-top: 0px;
+		}
+		.fund-contact-bottom h5 {
+			font-size: 30px;
+		}
+		.fund-appeal-top {
+			display: block;
+			float: none;
+			width: 100%;
+		}
+		span.lead-line.thank-you {
+			display: block;
+			text-align: center;
+		}
+		.address-street, .address-city {
+			font-size: 18px;
+			font-family: 'Raleway';
+			line-height: 1.8em;
+		}
+		.donate-button {
+			width: 70%;
+	    min-width: 200px;
+	    text-align: center;
+	    margin: auto;
+		}
+		.donate-button a {
+			width: 100%;
+	    text-align: center;
+		}
+	}
+
 	/* All Mobile Sizes */
 	@media only screen and (max-width: 767px) {
 		.posts-layout {
@@ -3252,14 +3473,14 @@ Panels
 			min-height: 190px;
 		}
 		.text-slider .maintitle {
-			font-size: 32px;
-		  line-height: 1.1;
-		  padding-bottom: 10px;
+			font-size: 48px;
+		  line-height: 1.2em;
+		  padding-bottom: 30px;
 		}
 		.text-slider .subtitle {
-	    font-size: 16px;
+	    font-size: 24px;
 	    line-height: 24px;
-	    padding: 15px 0;
+	    padding: 30px 0;
 		}
 		.roll-button {
 			padding: 10px 30px;
@@ -3315,7 +3536,6 @@ Panels
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
-
     .text-slider-section {
 			min-height: 0;
 			top: auto;
@@ -3323,6 +3543,12 @@ Panels
 		}
 		.site-title {
 			font-size: 22px !important;
+		}
+		.registration-button .roll-button {
+			font-size: 1.1em;
+		}
+		.bit-40.course-map-container img {
+			max-width: 100%;
 		}
 	}
 	/* Mobile Portrait Size */
@@ -3339,14 +3565,55 @@ Panels
 			font-size: 12px;
 		}
 		.text-slider .maintitle {
-			font-size: 20px;
+			font-size: 40px;
 		}
 		.text-slider .subtitle {
-			font-size: 14px;
+			font-size: 24px;
+			line-height: 1.2em;
 		}
 		.text-slider {
 			margin-bottom: 15px;
 		}
+		.roll-counter i {
+			font-size: 48px;
+		}
+		.roll-counter .numb-container {
+    	font-size: 42px;
+		}
+		.timeline-section {
+    	padding: 30px 20px;
+		}
+		.about-section {
+    	padding: 30px 20px;
+		}
+		.run-section {
+			padding: 30px 20px;
+		}
+		.projects-section {
+			padding: 30px 20px;
+		}
+		.support-section {
+			padding: 30px 20px;
+		}
+		.roll-counter {
+		   margin-bottom: 0px;
+		}
+		.section-content p {
+			font-size: 16px;
+		}
+		.registration-button .roll-button {
+			font-size: 1.1em;
+		}
+		.bit-40.course-map-container img {
+			max-width: 100%;
+		}
+		.registration-date p {
+  		font-size: 1.2em;
+  	}
+  	.thank-you {
+  		padding-top: 70px;
+  		font-size: 32px;
+  	}
 	}
 	@media only screen and (max-width: 320px) {
 		.text-slider {

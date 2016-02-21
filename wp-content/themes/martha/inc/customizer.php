@@ -208,6 +208,7 @@ function martha_customize_register( $wp_customize ) {
     $wp_customize->add_setting(
         'textslider_slide',
         array(
+            'default' => 1,
             'sanitize_callback' => 'martha_sanitize_checkbox',
         )
     );
@@ -218,6 +219,7 @@ function martha_customize_register( $wp_customize ) {
             'label'     => __('Stop the text slider?', 'martha'),
             'section'   => 'martha_slider',
             'priority'  => 9,
+            'std'       => 1
         )
     );
     //Image 1
@@ -237,7 +239,7 @@ function martha_customize_register( $wp_customize ) {
     $wp_customize->add_setting(
         'slider_image_1',
         array(
-            'default' => get_template_directory_uri() . '/images/playground-blackwhite.jpeg',
+            'default' => get_template_directory_uri() . '/images/runners/kids2-bw.jpeg',
             'sanitize_callback' => 'esc_url_raw',
         )
     );

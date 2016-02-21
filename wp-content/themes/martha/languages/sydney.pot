@@ -319,7 +319,7 @@ msgid "URL for your call to action button"
 msgstr ""
 
 #: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\martha/inc/customizer.php:568
-msgid "Click to begin"
+msgid "Become a Donor"
 msgstr ""
 
 #: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\martha/inc/customizer.php:575

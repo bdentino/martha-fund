@@ -420,3 +420,77 @@ Main components
     transform: translateX(0);
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .cd-timeline-img {
+    height: 20px;
+    width: 20px;
+  }
+  .cd-timeline-img {
+    left: 8px;
+  }
+  .cd-timeline-content h2 {
+    font-size: 24px;
+  }
+  .cd-timeline-content p {
+    font-size: 16px;
+    line-height: 1.33em;
+  }
+  .cd-timeline-content .cd-date {
+    font-size: 24px;
+    padding: 0 0;
+  }
+  .cd-timeline-content {
+    margin-left: 50;
+    top: -14px;
+  }
+  .martha-run-logo {
+    background-size: contain;
+    height: 116px;
+    width: 330px;
+  }
+  .register-banner-text {
+    font-size: 1.2em;
+  }
+  .registration-card .roll-button {
+    width: 100%;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cd-timeline-img {
+    height: 20px;
+    width: 20px;
+  }
+  .cd-timeline-img {
+    left: 8px;
+  }
+  .cd-timeline-content h2 {
+    font-size: 24px;
+  }
+  .cd-timeline-content p {
+    font-size: 16px;
+    line-height: 1.33em;
+  }
+  .cd-timeline-content .cd-date {
+    font-size: 24px;
+    padding: 0 0;
+  }
+  .cd-timeline-content {
+    margin-left: 50;
+    top: -14px;
+  }
+  .martha-run-logo {
+    background-size: contain;
+    height: 116px;
+    width: 330px;
+  }
+  .register-banner-text {
+    font-size: 1.2em;
+  }
+  .registration-card .roll-button {
+    width: 100%;
+    font-size: 1.2em;
+  }
+}

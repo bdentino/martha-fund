@@ -7,34 +7,83 @@ get_header(); ?>
   <main id="main" class="site-main" role="main">
     <div class="first-row">
 
-      <section class="about-section dark">
+      <section id="about" class="about-section light">
         <h3 class="section-title">About The Fund</h3>
         <div class="section-content frame">
-          <div class="bit-25">
-            <img class="martha-bust" src="https://cldup.com/3bOtrYPz-M.png"></img>
-          </div>
-          <div class="bit-75">
+          <div>
+
+            <div class="martha-image"></div>
+            <div class="martha-caption caption">FBI Special Agent Martha Dixon</div>
+
             <p>
-            <span class="lead-line">Martha loved children.</span> At her wedding, just ten weeks before her death, 15 of her nieces and nephews led her down the aisle. This is an example of the enormous part children played in Martha’s life and future. It is within that spirit that Martha’s family and friends developed The Martha Fund to serve children by building playgrounds in Martha’s memory.
-            </p>
-            (Need a better description here...)
-            <p>
-            The Martha Fund has provided financial support for several projects to date, including the Holy Family Institute playground, the Bird Park playground, the Jefferson Elementary School playground, the Holy Rosary Elementary School playground, the Edgeworth Elementary School playground and the renovation of Dixon Field. Our donations have totaled over $100,000 to date. On April 7th, 2007, the dream of building Martha’s Playground was realized with the unveiling of the first ever in Mt Lebanon park located in the heart of the community where Martha grew up. Since then the Martha Fund has continued to make donations to aid in a number of projects around the Pittsburgh area.
+
+            <span class="lead-line">The Martha Fund</span> is a 501(c)(3) charitable organization dedicated to preserving the
+
+            memory of slain FBI Special Agent Martha Dixon by hosting family-oriented public events
+
+            and funding the construction and renovation of playgrounds in the Pittsburgh area.
+
             </p>
 
             <p>
-            Martha’s Run is the Martha Fund’s primary fundraiser. It is a 10K race, 2 mile run, and a
-            1-mile walk through the tree-lined streets of Mt. Lebanon in the spring of each year. In 2004, a Children’s Race was added with great success. Each year we seek corporate support to help us meet the costs of Martha’s Run, and we offer various forms of recognition or advertising in return. We always welcome support for Martha’s Run and directly to The Martha Fund. The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor. It is set up as a Trust Fund, with a Board of Directors and trustees consisting at present of members of Martha's family. Martha's father, Ken Dixon, the retired Allegheny County Director of Elections, was the Chairman of the Board of Directors and one of five trustees until his death in 2000.
+
+            Martha received her undergraduate degree in biology from the University of Pittsburgh
+
+            in 1982 and worked as a forensic chemist for the Arkansas State Crime Lab. She joined
+
+            the FBI in 1987 and, while assigned to the Knoxville Field Office, became a technically
+
+            trained agent and the first female SWAT team member for that field office. Martha was
+
+            assigned to the Washington (DC) Field Office in 1992 and worked drug cases, violent
+
+            crimes, and cold cases. Martha looked forward to returning to forensics and was a
+
+            founding member of WFO’s Evidence Response Team, which was renamed the Dixon-Martinez
+
+            Evidence Response Team in her honor.
+
+            </p>
+            <div class="frame">
+            <div class="bit-2">
+            <div class="martha-fbi"></div>
+            <div class="caption">Martha with FBI SWAT, Knoxville 1991</div>
+            </div>
+            <div class="bit-2">
+            <div class="martha-siblings"></div>
+            <div class="caption">Martha and her sisters</div>
+            </div>
+            </div>
+            <p>
+
+            Her family and friends channeled grief into efforts to continue Martha’s two passions,
+
+            running and children.  The Martha Fund was formed in 1995 to raise funding for
+
+            playground projects in her hometown.  The Martha Fund’s main fundraising effort is
+
+            Martha’s Run, a challenging 10K run and 2K run and walk through the rolling hills of
+
+            Mt. Lebanon.  Since the first fundraiser in 1995, The Martha Fund has gifted many
+
+            smaller grants to assist playground projects, and in 2007, the signature project,
+
+            Martha’s Playground, was unveiled in Mt. Lebanon Park.  The Fund continues to
+
+            support playground projects in the Pittsburgh area and is poised for another Martha’s
+
+            Playground in the future.
+
             </p>
 
-            <p>
-            To date, The Martha Fund has not spent any donations contributed to it on salaries, administrative costs, or any other costs that did not directly further its charitable goals. All of the board members or assistants are volunteers. Its plans are to continue to minimize its costs and to build as many playgrounds as possible.
-            </p>
+            <div class="martha-playground"></div>
+            <div class="caption">Martha's Playground in Mt Lebanon</div>
+
           </div>
         </div>
       </section>
 
-      <section class="fund-facts-section parallax dark">
+      <section id="facts" class="fund-facts-section parallax dark">
         <div class="slider-overlay"></div>
         <div class="frame">
           <div class="bit-4">
@@ -48,7 +97,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-trophy ?>"></i>
-              <div class="numb-container"><span class="numb-count" data-to="2345" data-speed="500" data-waypoint-active="yes">2345</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="2500" data-speed="500" data-waypoint-active="yes">2500</span>+</div>
               <div class="name-count">Supporters</div>
             </div>
           </div>
@@ -56,22 +105,22 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-money"></i>
-              <div class="numb-container"><span>$</span><span class="numb-count" data-to="130" data-speed="500" data-waypoint-active="yes">130</span><span>k</span></div>
-              <div class="name-count">Contributed</div>
+              <div class="numb-container"><span>$</span><span class="numb-count" data-to="67" data-speed="500" data-waypoint-active="yes">67</span><span>k</span></div>
+              <div class="name-count">Project Funding</div>
             </div>
           </div>
 
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-soccer-ball-o"></i>
-              <div class="numb-container"><span class="numb-count" data-to="6" data-speed="500" data-waypoint-active="yes">6</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="12" data-speed="500" data-waypoint-active="yes">12</span></div>
               <div class="name-count">Playgrounds</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="timeline-section cssanimations dark">
+      <section id="history" class="timeline-section cssanimations dark">
         <h3 class="section-title">Remembering Martha</h3>
         <div class="section-content" id="cd-timeline">
 
@@ -108,9 +157,7 @@ get_header(); ?>
             <div class="cd-timeline-content">
               <h2>First Martha's Run</h2>
               <p>
-              Board members, donors, volunteers, and sponsors work together to organize the first ever Martha's Run.
-              (Any details we have about the first run would be good here. How many runners? How much money was raised?
-              Anything else special?)
+              Board members, donors, volunteers, and sponsors work together to organize the first ever Martha's Run. With local news coverage and hundreds of runners, it was a big success.
               </p>
               <span class="cd-date">1997</span>
             </div>
@@ -123,9 +170,8 @@ get_header(); ?>
               <h2>For The Kids</h2>
               <p>
               Inspired by Martha's love for children, a Kid's Race is added to Martha's Run with great success. In its inaugural year,
-              more than 50 children from the greater Pittsburgh area and beyond had a blast competing for prizes in their age group.
-              Of course, none of them were any match for Brian Dentino, who destroyed the competition and would go on to win 6
-              straight races before rumors of HGH abuse would force the legend himself into a quiet retirement.
+              more than 40 children from the greater Pittsburgh area and beyond had a blast competing for prizes in their age group.
+              The Kid's Races remain an integral part of the Martha's Run festivities to this day.
               </p>
               <span class="cd-date">2004</span>
             </div>
@@ -162,21 +208,21 @@ get_header(); ?>
         </div>
       </section>
 
-      <section class="race-register-section parallax dark">
+      <section id="register" class="race-register-section parallax dark">
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
-            <div class="registration-card"><a href="#primary" class="roll-button">Sign Up Now</a></div>
+            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a></div>
           </div>
         </div>
       </section>
 
-      <section class="run-section light">
+      <section id="run" class="run-section light">
         <h3 class="section-title">Martha's Run</h3>
         <div class="section-content frame">
-          <div class="bit-65">
+          <div>
             <p>
             <span class="lead-line">Martha Dixon loved life.</span> She was an avid runner and a loving family member and friend, often combining running events
             with special visits. Inspired by her passion, one our primary fundraisers is a 10K race through the tree-lined streets of Mt. Lebanon. Each year,
@@ -191,52 +237,64 @@ get_header(); ?>
             </p>
             <p>
             Each year we seek corporate support to help us meet the costs of Martha’s Run, and we offer various forms of recognition or advertising in return.
-            If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:marthafund@gmail.com">marthafund@gmail.com</a>.
+            If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a>.
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
 
+          </div>
+
+          <div class="bit-60 race-registration-container">
             <div class="registration-date">
-            The 20th annual Martha's Run will be held on April 9th, 2016. We hope to see you there!
+            <p>The 20th annual Martha's Run will be held on April 9th, 2016. </p>
             </div>
 
             <div class="registration-button">
-            <a href="#primary" class="roll-button">Sign Up Now</a>
+              <a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a>
             </div>
 
+            <div class="last-year-winners">
+            </div>
+            <div class="caption">Martha's Run 2015 winners Greg Opp and Laura Mucho</div>
           </div>
-          <div class="bit-35">
+          <div class="bit-40 course-map-container">
             <img class="course-map" src="https://cldup.com/mopMWqGNbn.png"></img>
+            <div class="caption">Martha's Run Course Map</div>
           </div>
         </div>
       </section>
 
-
-      <section class="sponsors-section light">
+      <section id="sponsors" class="sponsors-section light">
         <h3 class="section-title">Our Sponsors</h3>
         <div class="section-content">
-          <div class="frame">
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/etJse17Dsn.png')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/BWHk0v4bDp.JPG')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/ComK3dK_KC.jpeg')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/CpoT_0A4Dz.png')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/Sv8danRvxV.gif')"></div>
-
-            <div class="bit-4 sponsor-logo" style="background-image: url('https://cldup.com/ComK3dK_KC.jpeg')"></div>
-            <div class="bit-4 sponsor-logo" style="background-image: url('https://cldup.com/etJse17Dsn.png')"></div>
-            <div class="bit-4 sponsor-logo" style="background-image: url('https://cldup.com/BWHk0v4bDp.JPG')"></div>
-            <div class="bit-4 sponsor-logo" style="background-image: url('https://cldup.com/etJse17Dsn.png')"></div>
-
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/ComK3dK_KC.jpeg')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/CpoT_0A4Dz.png')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/etJse17Dsn.png')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/BWHk0v4bDp.JPG')"></div>
-            <div class="bit-5 sponsor-logo" style="background-image: url('https://cldup.com/Sv8danRvxV.gif')"></div>
-          </div>
+        <?php
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/asics.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/au-bon-pain.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/babst-calland.gif') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/bados-pizza.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/coffee-tree-roasters.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/ditto-document-solutions.gif') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/fbi.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/fleet-feet.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/ithen-global.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/knepper-press.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mt-lebanon.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mt-lebo-magazine.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mt-lebo-police.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mt-lebo-school.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/penn-dot.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/pittsburgh-trophy.gif') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/runners-high.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/south-hills.gif') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/strong-stride.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/wild-birds.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/williams-coulson.jpg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/zimmer-kunz.jpeg') . ');"></div>';
+        ?>
         </div>
       </section>
 
-      <section class="projects-section dark">
-        <h3 class="section-title">Projects</h3>
+      <section id="playgrounds" class="projects-section dark">
+        <h3 class="section-title">Playgrounds</h3>
         <ul id="categories" class="clr">
 
           <li>
@@ -294,18 +352,116 @@ get_header(); ?>
           </li>
 
           <li>
-            <div data-target="#dixon-field">
-              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="Dixon-Field">
-              <div class="overlay" data-target="#dixon-field"></div>
-              <div class="overlay-hover" data-target="#dixon-field"></div>
-              <h2 data-target="#dixon-field">Dixon Field</h2>
+            <div data-target="#heidelburg">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="heidelburg">
+              <div class="overlay" data-target="#heidelburg"></div>
+              <div class="overlay-hover" data-target="#heidelburg"></div>
+              <h2 data-target="#heidelburg">Heidelburg Park</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#freeport-kindergarten">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="freeport-kindergarten">
+              <div class="overlay" data-target="#freeport-kindergarten"></div>
+              <div class="overlay-hover" data-target="#freeport-kindergarten"></div>
+              <h2 data-target="#freeport-kindergarten">Freeport Kindergarten</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#pathfinder">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="pathfinder">
+              <div class="overlay" data-target="#pathfinder"></div>
+              <div class="overlay-hover" data-target="#pathfinder"></div>
+              <h2 data-target="#pathfinder">Pathfinder School</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#st-simon-jude">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="st-simon-jude">
+              <div class="overlay" data-target="#st-simon-jude"></div>
+              <div class="overlay-hover" data-target="#st-simon-jude"></div>
+              <h2 data-target="#st-simon-jude">St Simon and Jude Parish</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#markham">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="markham">
+              <div class="overlay" data-target="#markham"></div>
+              <div class="overlay-hover" data-target="#markham"></div>
+              <h2 data-target="#markham">Markham Elementary</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#ymca">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="ymca">
+              <div class="overlay" data-target="#ymca"></div>
+              <div class="overlay-hover" data-target="#ymca"></div>
+              <h2 data-target="#ymca">YMCA</h2>
             </div>
           </li>
 
         </ul>
       </section>
 
+      <section id="donate" class="support-section light">
+        <h3 class="section-title">Support The Fund</h3>
+        <div class="section-content frame">
+
+          <div class="fund-contact bit-35">
+            <h5 class="address-title">The Martha Fund</h5>
+            <div class="address-street">933 Rockwood Ave</div>
+            <div class="address-city">Pittsburgh, PA 15234</div>
+            <div class="address-email"><a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a></div>
+            <div class="donate-button">
+              <a href="https://marthasrun.webconnex.com/donation" class="roll-button">Donate via RedPodium</a>
+            </div>
+          </div>
+
+          <div class="fund-appeal-top bit-65">
+            <p>
+            <span class="lead-line">Your donation</span> will help us to continue funding playground projects
+            in the Pittsburgh area and host future events like Martha's Run in support of this mission.
+            To date, The Martha Fund has not spent any donations on salaries, administrative costs, or any other costs that did not directly further its charitable goals. All of the board members and assistants are volunteers. The Martha Fund accepts financial contributions through RedPodium.
+
+            If you would prefer to contribute your time and talents to support our mission,
+            help us sponsor one of our events, or simply find out more information about The Martha Fund, please send us an email. We can't wait to hear from you!
+            </p>
+
+            <div class="support-picture">
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="fund-donate-bottom">
+        <div class="section-content">
+          <div class="fund-contact-bottom">
+            <h5 class="address-title">The Martha Fund</h5>
+            <div class="address-street">933 Rockwood Ave</div>
+            <div class="address-city">Pittsburgh, PA 15234</div>
+            <div class="address-email"><a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a></div>
+            <div class="donate-button">
+              <a href="https://marthasrun.webconnex.com/donation" class="roll-button">Donate via RedPodium</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="thank-you-section dark">
+        <div class="slider-overlay"></div>
+        <div class="thank-you">
+        Thank you for your support!
+        </div>
+      </section>
+
     </div>
-  </main><!-- #main -->
+  </main>
+  <!-- #main -->
 
 <?php get_footer(); ?>
