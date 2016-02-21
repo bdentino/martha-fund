@@ -424,7 +424,7 @@ get_header(); ?>
 
           <div class="fund-appeal-top bit-65">
             <p>
-            <span class="lead-line">Your donation</span> will help us to continue funding playground projects
+            <span class="lead-line">Your donation</span> is tax-deductible and will help us to continue funding playground projects
             in the Pittsburgh area and host future events like Martha's Run in support of this mission.
             To date, The Martha Fund has not spent any donations on salaries, administrative costs, or any other costs that did not directly further its charitable goals. All of the board members and assistants are volunteers. The Martha Fund accepts financial contributions through RedPodium.
 

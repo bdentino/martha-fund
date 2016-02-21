@@ -3131,7 +3131,8 @@ Panels
 
 	.fund-contact {
 		padding: 0px 32px;
-		max-width: 280px;
+		max-width: 320px;
+		min-width: 320px;
 	}
 
 	.fund-donate-bottom {
@@ -3395,32 +3396,14 @@ Panels
 		}
 	}
 
-	@media only screen and (max-width: 920px) {
-		.timeline-section {
-    	padding: 30px 40px;
-		}
-		.about-section {
-    	padding: 30px 40px;
-		}
-		.run-section {
-    	padding: 30px 40px;
-		}
-		.projects-section {
-			padding: 30px 40px;
-		}
-		.support-section {
-			padding: 30px 40px;
-		}
-
+	@media only screen and (max-width: 1120px) {
 		.fund-donate-bottom {
 			display: block;
 	    background-color: rgba(244, 61, 110, 0.1);
 		}
-
 		.fund-contact {
 			display: none;
 		}
-
 		.fund-contact-bottom {
 	    width: 100%;
 	    max-width: 500px;
@@ -3438,6 +3421,25 @@ Panels
 			float: none;
 			width: 100%;
 		}
+	}
+
+	@media only screen and (max-width: 920px) {
+		.timeline-section {
+    	padding: 30px 40px;
+		}
+		.about-section {
+    	padding: 30px 40px;
+		}
+		.run-section {
+    	padding: 30px 40px;
+		}
+		.projects-section {
+			padding: 30px 40px;
+		}
+		.support-section {
+			padding: 30px 40px;
+		}
+
 		span.lead-line.thank-you {
 			display: block;
 			text-align: center;
