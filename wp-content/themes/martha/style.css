@@ -3439,6 +3439,9 @@ Panels
 		.support-section {
 			padding: 30px 40px;
 		}
+		.sponsors-section {
+			padding: 30px 40px;
+		}
 
 		span.lead-line.thank-you {
 			display: block;
@@ -3597,6 +3600,9 @@ Panels
 		.support-section {
 			padding: 30px 20px;
 		}
+		.sponsors-section {
+			padding: 30px 20px;
+		}
 		.roll-counter {
 		   margin-bottom: 0px;
 		}
@@ -3617,8 +3623,20 @@ Panels
   		font-size: 32px;
   	}
 	}
-	@media only screen and (max-width: 320px) {
+	@media only screen and (max-width: 400px) {
 		.text-slider {
 			margin-bottom: 0;
+		}
+		.martha-run-logo {
+			width: 260px;
+  	}
+  	.registration-button .roll-button {
+    	font-size: 0.9em;
+		}
+		.last-year-winners {
+			width: 270px;
+		}
+		.course-map {
+			width: 270px;
 		}
 	}
