@@ -57,7 +57,7 @@
 
 	<div class="header-image">
 		<?php martha_header_overlay(); ?>
-		<img class="header-inner" src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="<?php bloginfo('name'); ?>">
+		<img class="header-inner" src="http://martha.tno.me/wp-content/themes/martha/images/runners/kids2-bw.jpeg" width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="<?php bloginfo('name'); ?>">
 	</div>
 
 	<div id="content" class="page-wrap">
