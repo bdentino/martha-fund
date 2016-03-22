@@ -3180,7 +3180,7 @@ Panels
 	}
 
 	.martha-image {
-		background-image: url(http://twt-thumbs.washtimes.com/media/image/2014/11/21/318a0b66c6a50c2d660f6a706700ff26_s878x1229.jpg?63c6577c743cde0efc55adb0cab4cd509013eba5);
+		background-image: url(https://cldup.com/K21TDTbkDc.jpg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
@@ -3244,6 +3244,24 @@ Panels
 
 	.bit-65 { width: 65%; }
 	.bit-35 { width: 35%; }
+
+	.brochure-download {
+    max-width: 340px;
+    margin: auto;
+    padding-top: 12px;
+    font-size: 16px;
+	}
+
+	.brochure-download-register {
+		max-width: 480px;
+    margin: auto;
+    padding-top: 12px;
+    font-size: 16px;
+    color: white;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+	}
 
 /* Media Queries
 -------------------------------------------------------------- */

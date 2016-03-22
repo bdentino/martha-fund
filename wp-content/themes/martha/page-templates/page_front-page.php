@@ -215,6 +215,7 @@ get_header(); ?>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
             <div class="registration-card"><a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a></div>
+            <div class="brochure-download-register">For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a></div>
           </div>
         </div>
       </section>
@@ -250,6 +251,7 @@ get_header(); ?>
 
             <div class="registration-button">
               <a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a>
+              <div class="brochure-download">For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a></div>
             </div>
 
             <div class="last-year-winners">
