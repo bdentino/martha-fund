@@ -211,12 +211,7 @@ get_header(); ?>
       <section id="register" class="race-register-section parallax dark">
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
-          <div class="bit-2"><div class="martha-run-logo"></div></div>
-          <div class="bit-2">
-            <div class="register-banner-text">Early Bird Registration is Open!</div>
-            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a></div>
-            <div class="brochure-download-register">For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a></div>
-          </div>
+          <div><div class="martha-run-logo"></div></div>
         </div>
       </section>
 
@@ -245,13 +240,14 @@ get_header(); ?>
           </div>
 
           <div class="bit-60 race-registration-container">
-            <div class="registration-date">
-            <p>The 20th annual Martha's Run will be held on April 9th, 2016. </p>
-            </div>
-
             <div class="registration-button">
-              <a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a>
-              <div class="brochure-download">For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a></div>
+              <div class="closed-registration">Online Registration is now closed!</div>
+              <!-- <a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a> -->
+
+              <div class="registration-date">
+              <p>The 20th annual Martha's Run will be held on April 9th, 2016.</p>
+              </div>
+              <div class="brochure-download">In-person registration will be hosted at <a href="http://www.fleetfeetpittsburgh.com/about/directions">Fleet Feet</a> from <b>5-8pm on Thursday, Apr 7th and Friday Apr 8th</b>. Runners can also register on the day of the race (Saturday, Apr 9th) at the <a href="http://mtlebanon.org/206/Recreation-Center">Mt Lebanon Rec Center</a> <b>starting at 7am</b>. For more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</div>
             </div>
 
             <div class="last-year-winners">
@@ -269,6 +265,7 @@ get_header(); ?>
         <h3 class="section-title">Our Sponsors</h3>
         <div class="section-content">
         <?php
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mass.jpg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/asics.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/au-bon-pain.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/babst-calland.gif') . ');"></div>';
