@@ -241,13 +241,10 @@ get_header(); ?>
 
           <div class="bit-60 race-registration-container">
             <div class="registration-button">
-              <div class="closed-registration">Online Registration is now closed!</div>
+              <div class="closed-registration">Online Registration for Martha's Run 2016 is now closed. We'll see you again next year!</div>
               <!-- <a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a> -->
 
-              <div class="registration-date">
-              <p>The 20th annual Martha's Run will be held on April 9th, 2016.</p>
-              </div>
-              <div class="brochure-download">In-person registration will be hosted at <a href="http://www.fleetfeetpittsburgh.com/about/directions">Fleet Feet</a> from <b>5-8pm on Thursday, Apr 7th and Friday Apr 8th</b>. Runners can also register on the day of the race (Saturday, Apr 9th) at the <a href="http://mtlebanon.org/206/Recreation-Center">Mt Lebanon Rec Center</a> <b>starting at 7am</b>. For more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</div>
+              <div class="brochure-download">Results from our 20th annual Martha's Run are now online thanks to Runner's High Pittsburgh. <a href="http://www.runhigh.com/2016RESULTS/R040916AA.html">Check your time here.</a></div>
             </div>
 
             <div class="last-year-winners">
