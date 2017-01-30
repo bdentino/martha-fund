@@ -1,16 +1,25 @@
-wordpress:
-  image: wordpress
-  links:
-    - db:mysql
-  ports:
-    - 9090:80
-  volumes:
-    - ./data:/data
-    - ./wp-content/themes/martha:/var/www/html/wp-content/themes/martha
+version: '2'
+volumes:
+  mysql:
+    driver: local
+services:
 
-db:
-  image: mariadb
-  environment:
-    MYSQL_ROOT_PASSWORD: marthafund
-  volumes:
-    - ./mariadb:/var/lib/mysql
+  wordpress:
+    image: wordpress
+    links:
+      - db:mysql
+    ports:
+      - 9090:80
+    environment:
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: marthafund
+      WORDPRESS_DB_NAME: marthafund
+    volumes:
+      - ./wp-content/themes/martha:/var/www/html/wp-content/themes/martha
+
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: marthafund
+    volumes:
+      - mysql:/var/lib/mysql
