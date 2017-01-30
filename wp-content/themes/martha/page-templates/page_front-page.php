@@ -221,7 +221,7 @@ get_header(); ?>
           <div>
             <p>
             <span class="lead-line">Martha Dixon loved life.</span> She was an avid runner and a loving family member and friend, often combining running events
-            with special visits. Inspired by her passion, one our primary fundraisers is a 10K race through the tree-lined streets of Mt. Lebanon. Each year,
+            with special visits. Inspired by her passion, one of our primary fundraisers is a 10K race through the tree-lined streets of Mt. Lebanon. Each year,
             hundreds of runners of all ages join us in the spring for Martha's Run to celebrate Martha's legacy and pay special tribute to all members of our
             law enforcement community. Following the races, runners and non-runners alike come together for food, music, and celebration while awards are presented
             to the winners of each age group.
@@ -229,7 +229,7 @@ get_header(); ?>
             <p>
             In addition to the <b>10K race</b>, Martha's Run events include a <b>2-mile run</b> and a <b>1-mile run/walk</b> open to all ages. And because the Martha
             Fund is all about the kids, all children are invited to participate in the thrilling <b>Kid's Races</b> held on the Mt. Lebanon High School track at the
-            conclusion of the 10K. Register today and join us for the 20th annual Martha's Run on April 9, 2016.
+            conclusion of the 10K. Register today and join us for the 21st annual Martha's Run on April 8, 2017.
             </p>
             <p>
             Each year we seek corporate support to help us meet the costs of Martha’s Run, and we offer various forms of recognition or advertising in return.
@@ -241,15 +241,15 @@ get_header(); ?>
 
           <div class="bit-60 race-registration-container">
             <div class="registration-button">
-              <div class="closed-registration">Online Registration for Martha's Run 2016 is now closed. We'll see you again next year!</div>
-              <!-- <a href="https://marthasrun.webconnex.com/2016" class="roll-button">Sign Up Now</a> -->
+              <div class="closed-registration">Online Registration for Martha's Run 2017 is opening soon. Stay tuned!</div>
+              <!-- <a href="https://marthasrun.webconnex.com/2017" class="roll-button">Sign Up Now</a> -->
 
-              <div class="brochure-download">Results from our 20th annual Martha's Run are now online thanks to Runner's High Pittsburgh. <a href="http://www.runhigh.com/2016RESULTS/R040916AA.html">Check your time here.</a></div>
+              <div class="brochure-download">Results from our 20th annual Martha's Run are online thanks to Runner's High Pittsburgh. <a href="http://www.runhigh.com/2016RESULTS/R040916AA.html">Check your time here.</a></div>
             </div>
 
             <div class="last-year-winners">
             </div>
-            <div class="caption">Martha's Run 2015 winners Greg Opp and Laura Mucho</div>
+            <div class="caption">Martha's Run 2016 winners Greg Opp and Laura Mucho</div>
           </div>
           <div class="bit-40 course-map-container">
             <img class="course-map" src="https://cldup.com/mopMWqGNbn.png"></img>

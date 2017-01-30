@@ -3,3 +3,4 @@ wp-content/plugins/
 wp-content/uploads/
 mariadb/
 rr-theme/
+.DS_Store
