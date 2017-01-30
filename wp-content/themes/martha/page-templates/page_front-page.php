@@ -199,7 +199,7 @@ get_header(); ?>
                 In honor of fallen FBI Agent Sam Hicks, who was slain on Nov 19, 2008 while serving a warrant in Allegheny County,
                 Martha's Run law enforcement awards are renamed the Sam Hicks' Memorial Awards. Hicks' family joins us for the race
                 and to present the awards dedicated to his sacrifice. To learn more about Sam Hicks and the Memorial Fund set up
-                by his family and friends in his name, visit <a src="http://www.samhicksmemfund.org/giving_back.shtml">their website</a>
+                by his family and friends in his name, visit <a href="http://www.samhicksmemfund.org">their website</a>
               </p>
               <span class="cd-date">2009</span>
             </div>

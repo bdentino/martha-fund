@@ -34,7 +34,7 @@ function martha_slider_template() {
         $slider_subtitle_4  = get_theme_mod('slider_subtitle_4');
         $slider_subtitle_5  = get_theme_mod('slider_subtitle_5');
         $slider_button      = get_theme_mod('slider_button_text', 'Become a Donor');
-        $slider_button_url  = get_theme_mod('slider_button_url','#primary');
+        $slider_button_url  = get_theme_mod('slider_button_url','#donate');
     } else {
         $slider_title_1     = pll__(get_theme_mod('slider_title_1', 'Let\'s Make Pittsburgh Smile'));
         $slider_title_2     = pll__(get_theme_mod('slider_title_2'));
@@ -47,7 +47,7 @@ function martha_slider_template() {
         $slider_subtitle_4  = pll__(get_theme_mod('slider_subtitle_4'));
         $slider_subtitle_5  = pll__(get_theme_mod('slider_subtitle_5'));
         $slider_button      = pll__(get_theme_mod('slider_button_text', 'Become a Donor'));
-        $slider_button_url  = pll__(get_theme_mod('slider_button_url','#primary'));
+        $slider_button_url  = pll__(get_theme_mod('slider_button_url','#donate'));
     }
 
 	?>
