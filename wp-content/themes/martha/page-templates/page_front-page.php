@@ -56,7 +56,7 @@ get_header(); ?>
             </div>
             <p>
 
-            Her family and friends channeled grief into efforts to continue Martha’s two passions,
+            Her family and friends channeled their grief into efforts to continue Martha’s two passions,
 
             running and children.  The Martha Fund was formed in 1995 to raise funding for
 
@@ -89,7 +89,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-calendar"></i>
-              <div class="numb-container"><span class="numb-count" data-to="20" data-speed="500" data-waypoint-active="yes">20</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="20" data-speed="500" data-waypoint-active="yes">21</span></div>
               <div class="name-count">Years</div>
             </div>
           </div>
@@ -236,24 +236,13 @@ get_header(); ?>
             If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a>.
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
-
           </div>
 
-          <div class="bit-60 race-registration-container">
-            <div class="registration-button">
-              <div class="closed-registration">Online Registration for Martha's Run 2017 is opening soon. Stay tuned!</div>
-              <!-- <a href="https://marthasrun.webconnex.com/2017" class="roll-button">Sign Up Now</a> -->
-
-              <div class="brochure-download">Results from our 20th annual Martha's Run are online thanks to Runner's High Pittsburgh. <a href="http://www.runhigh.com/2016RESULTS/R040916AA.html">Check your time here.</a></div>
-            </div>
-
-            <div class="last-year-winners">
-            </div>
-            <div class="caption">Martha's Run 2016 winners Greg Opp and Laura Mucho</div>
+          <div class="bit-2 course-map-container">
+            <div class="course-map" style="background-image:url(https://cldup.com/RoLbDWnWe2.png)"></div>
           </div>
-          <div class="bit-40 course-map-container">
-            <img class="course-map" src="https://cldup.com/mopMWqGNbn.png"></img>
-            <div class="caption">Martha's Run Course Map</div>
+          <div class="bit-2 course-map-container">
+            <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
           </div>
         </div>
       </section>

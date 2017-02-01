@@ -3009,7 +3009,12 @@ Panels
 	}
 
 	.run-section .course-map {
-		min-width: 300px;
+		min-width: 170px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		min-height: 500px;
+		margin: 24px;
 	}
 
 	.race-register-section {
