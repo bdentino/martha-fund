@@ -89,7 +89,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-calendar"></i>
-              <div class="numb-container"><span class="numb-count" data-to="20" data-speed="500" data-waypoint-active="yes">21</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="21" data-speed="500" data-waypoint-active="yes">21</span></div>
               <div class="name-count">Years</div>
             </div>
           </div>
@@ -113,7 +113,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-soccer-ball-o"></i>
-              <div class="numb-container"><span class="numb-count" data-to="12" data-speed="500" data-waypoint-active="yes">12</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="13" data-speed="500" data-waypoint-active="yes">13</span></div>
               <div class="name-count">Playgrounds</div>
             </div>
           </div>
@@ -486,6 +486,15 @@ get_header(); ?>
               <div class="overlay" data-target="#ymca"></div>
               <div class="overlay-hover" data-target="#ymca"></div>
               <h2 data-target="#ymca">YMCA</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#st-annes">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="st-annes">
+              <div class="overlay" data-target="#st-annes"></div>
+              <div class="overlay-hover" data-target="#st-annes"></div>
+              <h2 data-target="#st-annes">St Anne's School</h2>
             </div>
           </li>
 
