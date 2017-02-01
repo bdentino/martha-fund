@@ -206,12 +206,16 @@ function martha_enqueue_bootstrap() {
 function martha_enqueue_hex_grid() {
 	wp_enqueue_style( 'martha-hex-grid', get_template_directory_uri() . '/css/hex-grid.css', array(), true );
 }
+function martha_enqueue_lightslider() {
+	wp_enqueue_style( 'martha-lightslider', get_template_directory_uri() . '/css/lightslider.css', array(), true );
+}
 function martha_enqueue_lemonade() {
 	wp_enqueue_style( 'martha-lemonade', get_template_directory_uri() . '/css/lemonade.min.css', array(), true );
 }
 add_action( 'wp_enqueue_scripts', 'martha_enqueue_bootstrap', 9 );
 add_action( 'wp_enqueue_scripts', 'martha_enqueue_hex_grid', 9 );
 add_action( 'wp_enqueue_scripts', 'martha_enqueue_lemonade', 9 );
+add_action( 'wp_enqueue_scripts', 'martha_enqueue_lightslider', 9 );
 
 /**
  * Change the excerpt length

@@ -3008,6 +3008,16 @@ Panels
 		padding: 0px 40px 0px 0px;
 	}
 
+	.run-section .race-description {
+		padding: 18px;
+    background: rgba(0, 179, 255, 0.10);
+    border-radius: 12px;
+	}
+
+	.run-section .course-map-group {
+    margin: auto;
+  }
+
 	.run-section .course-map {
 		min-width: 170px;
 		background-repeat: no-repeat;
@@ -3015,6 +3025,15 @@ Panels
 		background-position: center;
 		min-height: 500px;
 		margin: 24px;
+		margin-top: 48px;
+	}
+
+	.run-section .course-map-caption {
+		max-width: 400px;
+		text-align: center;
+    font-size: 24px;
+    line-height: 44px;
+    margin: auto;
 	}
 
 	.race-register-section {
@@ -3049,7 +3068,7 @@ Panels
     font-size: 1.8em;
     font-family: "Raleway";
     color: rgba(255, 255, 255, 0.85);
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     margin-top: 20px;
 	}
@@ -3127,6 +3146,51 @@ Panels
   	background-color: transparent;
   	color: #EB285A;
   	border-color: #EB285A;
+  }
+
+  .pictures-section {
+		padding: 30px 100px 40px;
+		height: 720px;
+		background-color: rgba(244, 61, 110, 0.1);
+  }
+
+  .pictures-section .slider-image {
+	  position: relative;
+  	display: block;
+  	margin: auto;
+  	max-width: 500px;
+  	height: 500px;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  background-repeat: no-repeat;
+	  background-size: contain;
+	  background-position: center top;
+  }
+
+  .pictures-section li {
+  	height: 500px;
+  }
+
+  .pictures-section .caption {
+    position: fixed;
+    bottom: 24px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.95);
+    font-size: 16px;
+    color: black;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    height: 100px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.45);
+    display: table;
+  }
+
+  .pictures-section .caption p {
+  	display: table-cell;
+  	vertical-align: middle;
   }
 
 	.projects-section {
@@ -3469,6 +3533,12 @@ Panels
 		.run-section {
     	padding: 30px 40px;
 		}
+		.pictures-section {
+			padding: 30px 40px;
+		}
+		.pictures-section .slider-image {
+			height: 400px;
+		}
 		.projects-section {
 			padding: 30px 40px;
 		}
@@ -3629,6 +3699,15 @@ Panels
 		}
 		.run-section {
 			padding: 30px 20px;
+		}
+		.pictures-section {
+			padding: 30px 20px;
+		}
+		.pictures-section .slider-image {
+			height: 360px;
+		}
+		.pictures-section .caption {
+			font-size: 14px;
 		}
 		.projects-section {
 			padding: 30px 20px;

@@ -211,14 +211,19 @@ get_header(); ?>
       <section id="register" class="race-register-section parallax dark">
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
-          <div><div class="martha-run-logo"></div></div>
+          <div class="bit-2"><div class="martha-run-logo"></div></div>
+          <div class="bit-2">
+            <div class="register-banner-text">Early Bird Registration is Open!</div>
+            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2017" class="roll-button">Sign Up Now</a></div>
+          </div>
         </div>
       </section>
 
       <section id="run" class="run-section light">
         <h3 class="section-title">Martha's Run</h3>
         <div class="section-content frame">
-          <div>
+          <div class="bit-2">
+            <div class="race-description">
             <p>
             <span class="lead-line">Martha Dixon loved life.</span> She was an avid runner and a loving family member and friend, often combining running events
             with special visits. Inspired by her passion, one of our primary fundraisers is a 10K race through the tree-lined streets of Mt. Lebanon. Each year,
@@ -229,22 +234,116 @@ get_header(); ?>
             <p>
             In addition to the <b>10K race</b>, Martha's Run events include a <b>2-mile run</b> and a <b>1-mile run/walk</b> open to all ages. And because the Martha
             Fund is all about the kids, all children are invited to participate in the thrilling <b>Kid's Races</b> held on the Mt. Lebanon High School track at the
-            conclusion of the 10K. Register today and join us for the 21st annual Martha's Run on April 8, 2017.
+            conclusion of the 10K. <a href="https://marthasrun.webconnex.com/2017">Register today</a> and join us for the 21st annual Martha's Run on <span><b>Saturday April 8, 2017</b></span>.
             </p>
             <p>
             Each year we seek corporate support to help us meet the costs of Martha’s Run, and we offer various forms of recognition or advertising in return.
             If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a>.
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
+            <p>
+            For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a>
+            </p>
+            </div>
           </div>
 
           <div class="bit-2 course-map-container">
-            <div class="course-map" style="background-image:url(https://cldup.com/RoLbDWnWe2.png)"></div>
-          </div>
-          <div class="bit-2 course-map-container">
+            <div class="course-map-group">
+            <div class="course-map-caption"><a href="https://marthasrun.webconnex.com/2017">Register today</a> for the 21st annual Martha's Run on <span><b>Saturday April 8, 2017!</b></span></div>
             <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
+            </div>
           </div>
         </div>
+      </section>
+
+      <section id="pictures" class="pictures-section">
+        <h3 class="section-title">2016 Race Highlights</h3>
+        <ul id="light-slider">
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/P6XPNCC-Bx.jpg")' />
+              <div class="caption">
+                  <p>Cara DeCarlo blew through the course to become our overall women's champion with a time of 42:58</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/PVlJBaV1tZ.jpg")' />
+              <div class="caption">
+                  <p>Brad Popple came ready to race too, capturing the overall men's trophy with an impressive time of 35:03</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/kryzQETysl.jpg")' />
+              <div class="caption">
+                  <p>Our law enforcement division winners, Stephen Kaufman and Brook Riordan</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/We4J0fzIUj.jpg")' />
+              <div class="caption">
+                  <p>Paul Dixon hands awards to Stanley Wolowski (20) and John Maliky (19), who have run every race with us since 1996</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/ysGJO6XFYc.JPG")' />
+              <div class="caption">
+                  <p>Our gracious volunteers, up before dawn to lay down the cones and barricades that keep our runners safe</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/9esDCZ06qp.JPG")' />
+              <div class="caption">
+                  <p>Jeff Bedford, Martha's partner, gets a high-five from her sister Monica as he crosses the finish line</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/BKfhHmnsrX.JPG")' />
+              <div class="caption">
+                  <p>First one to finish and he doesn't even look tired! Great job Brad!</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/R4lwA6OftX.JPG")' />
+              <div class="caption">
+                  <p>Finishing off the miles with a great big smile :)</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/VHKFRtAdxO.JPG")' />
+              <div class="caption">
+                  <p>Our women's champion finished strong as she breaks through the tape. Way to go Cara!</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/0H7JRC2x95.JPG")' />
+              <div class="caption">
+                  <p>She looks ready to go again!</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/P5J6-ae8xt.JPG")' />
+              <div class="caption">
+                  <p>Despite the cold, our Martha's Run kids had a blast!</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/4JqjAq3Ywd.JPG")' />
+              <div class="caption">
+                  <p>11 weeks old makes this our youngest participant yet! We sure do start them early in Pittsburgh!</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/xhXQK9MdmV.JPG")' />
+              <div class="caption">
+                  <p>Martha's niece Katie is hoping for warmer weather in 2017, but we'll be running rain or shine!</p>
+              </div>
+          </li>
+          <li>
+              <div class="slider-image" style='background-image:url("https://cldup.com/gYbzizv3bP.jpeg")' />
+              <div class="caption">
+                  <p>Thanks to our runners and donors, we were able to contribute to St. Anne's School playground in 2016.</p>
+              </div>
+          </li>
+        </ul>
       </section>
 
       <section id="sponsors" class="sponsors-section light">

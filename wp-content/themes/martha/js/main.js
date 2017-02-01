@@ -330,6 +330,19 @@
 	setTimeout(function(){$('.preloader').hide();}, 600);
   }
 
+	var imgslider = function() {
+	  var slider = $("#light-slider").lightSlider({
+	  	item: 2,
+	  	loop: true,
+	  	responsive:[{
+	  		breakpoint: 1200,
+	  		settings: {
+	  			item: 1
+	  		}
+	  	}]
+	  });
+	}
+
 	// Dom Ready
 	$(function() {
 		heroSection();
@@ -350,5 +363,6 @@
 		socialMenu();
 		goTop();
 		removePreloader();
+		imgslider();
   });
 })(jQuery);
