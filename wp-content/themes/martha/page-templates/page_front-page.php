@@ -482,11 +482,11 @@ get_header(); ?>
           </li>
 
           <li>
-            <div data-target="#cloverfield-ymca">
-              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="cloverfield-ymca">
-              <div class="overlay" data-target="#cloverfield-ymca"></div>
-              <div class="overlay-hover" data-target="#cloverfield-ymca"></div>
-              <h2 data-target="#cloverfield-ymca">Cloverfield YMCA</h2>
+            <div data-target="#cloverleaf-ymca">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="cloverleaf-ymca">
+              <div class="overlay" data-target="#cloverleaf-ymca"></div>
+              <div class="overlay-hover" data-target="#cloverleaf-ymca"></div>
+              <h2 data-target="#cloverleaf-ymca">Cloverleaf YMCA</h2>
             </div>
           </li>
 
