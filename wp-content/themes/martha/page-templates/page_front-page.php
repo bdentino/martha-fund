@@ -113,7 +113,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-soccer-ball-o"></i>
-              <div class="numb-container"><span class="numb-count" data-to="13" data-speed="500" data-waypoint-active="yes">13</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="20" data-speed="500" data-waypoint-active="yes">20</span></div>
               <div class="name-count">Playgrounds</div>
             </div>
           </div>
