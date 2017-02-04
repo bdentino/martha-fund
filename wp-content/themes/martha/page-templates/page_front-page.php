@@ -105,7 +105,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-money"></i>
-              <div class="numb-container"><span>$</span><span class="numb-count" data-to="67" data-speed="500" data-waypoint-active="yes">67</span><span>k</span></div>
+              <div class="numb-container"><span>$</span><span class="numb-count" data-to="135" data-speed="500" data-waypoint-active="yes">135</span><span>k</span></div>
               <div class="name-count">Project Funding</div>
             </div>
           </div>
@@ -241,8 +241,8 @@ get_header(); ?>
             If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a>.
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
-            <p>
-            For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a>
+<!--             <p>
+            For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a> -->
             </p>
             </div>
           </div>
@@ -353,7 +353,7 @@ get_header(); ?>
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mass.jpg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/asics.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/au-bon-pain.jpeg') . ');"></div>';
-          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/babst-calland.gif') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/thomas-l-stevenson.png') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/bados-pizza.png') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/coffee-tree-roasters.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/ditto-document-solutions.gif') . ');"></div>';
@@ -373,6 +373,7 @@ get_header(); ?>
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/wild-birds.png') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/williams-coulson.jpg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/zimmer-kunz.jpeg') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mrtsa.jpg') . ');"></div>';
         ?>
         </div>
       </section>
@@ -481,11 +482,11 @@ get_header(); ?>
           </li>
 
           <li>
-            <div data-target="#ymca">
-              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="ymca">
-              <div class="overlay" data-target="#ymca"></div>
-              <div class="overlay-hover" data-target="#ymca"></div>
-              <h2 data-target="#ymca">YMCA</h2>
+            <div data-target="#cloverfield-ymca">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="cloverfield-ymca">
+              <div class="overlay" data-target="#cloverfield-ymca"></div>
+              <div class="overlay-hover" data-target="#cloverfield-ymca"></div>
+              <h2 data-target="#cloverfield-ymca">Cloverfield YMCA</h2>
             </div>
           </li>
 
@@ -495,6 +496,69 @@ get_header(); ?>
               <div class="overlay" data-target="#st-annes"></div>
               <div class="overlay-hover" data-target="#st-annes"></div>
               <h2 data-target="#st-annes">St Anne's School</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#belzhoover-school">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="belzhoover-school">
+              <div class="overlay" data-target="#belzhoover-school"></div>
+              <div class="overlay-hover" data-target="#belzhoover-school"></div>
+              <h2 data-target="#belzhoover-school">Belzhoover School</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#lincoln-school">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="lincoln-school">
+              <div class="overlay" data-target="#lincoln-school"></div>
+              <div class="overlay-hover" data-target="#lincoln-school"></div>
+              <h2 data-target="#lincoln-school">Lincoln School</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#howe-school">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="howe-school">
+              <div class="overlay" data-target="#howe-school"></div>
+              <div class="overlay-hover" data-target="#howe-school"></div>
+              <h2 data-target="#howe-school">Howe School</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#foster-school">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="foster-school">
+              <div class="overlay" data-target="#foster-school"></div>
+              <div class="overlay-hover" data-target="#foster-school"></div>
+              <h2 data-target="#foster-school">Foster School</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#st-killian">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="st-killian">
+              <div class="overlay" data-target="#st-killian"></div>
+              <div class="overlay-hover" data-target="#st-killian"></div>
+              <h2 data-target="#st-killian">St Killian</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#monongahela">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="monongahela">
+              <div class="overlay" data-target="#monongahela"></div>
+              <div class="overlay-hover" data-target="#monongahela"></div>
+              <h2 data-target="#monongahela">City of Monongahela Playground</h2>
+            </div>
+          </li>
+
+          <li>
+            <div data-target="#dixon-field">
+              <img width="400" height="400" src="https://cldup.com/CTHCRNqtUr.png" class="attachment-thumbnail wp-post-image" alt="dixon-field">
+              <div class="overlay" data-target="#dixon-field"></div>
+              <div class="overlay-hover" data-target="#dixon-field"></div>
+              <h2 data-target="#dixon-field">Dixon Field</h2>
             </div>
           </li>
 
