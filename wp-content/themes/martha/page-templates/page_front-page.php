@@ -350,6 +350,7 @@ get_header(); ?>
         <h3 class="section-title">Our Sponsors</h3>
         <div class="section-content">
         <?php
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/dollar-bank.png') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mass.jpg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/asics.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/au-bon-pain.jpeg') . ');"></div>';
