@@ -5,6 +5,67 @@ Template Name: Front Page
 
 get_header(); ?>
   <main id="main" class="site-main" role="main">
+    <div class="popup">
+      <div class="popup-content">
+        <div class="popup-close">CLOSE</div>
+        <h3><span class="popup-title">Martha's Run 2017</span> is almost here!</h3>
+        <h5>Race Day Schedule</h5>
+        <p>
+        <b>Saturday April 8, 2017<b><br/>
+        Mt. Lebanon High School Stadium
+        </p>
+
+        <div class="popup-table">
+        <table>
+        <tr><td>10k</td><td>9:00am</td></tr>
+        <tr><td>2-Mile Fun Run</td><td>9:00am</td></tr>
+        <tr><td>1-Mile Memorial Walk</td><td>9:00am</td></tr>
+        <tr><td>Children's Races</td><td>10:15am</td></tr>
+        <tr><td>Awards & Raffle</td><td>After races</td></tr>
+        </table>
+        <br/>
+        </div>
+
+        <h5>Online Registration</h5>
+        <p>Online registration will remain open until April 5th. <a href="https://marthasrun.webconnex.com/2017">Register Now!</a></p>
+        <br/>
+
+        <h5>Walk-in Registration and Packet Pick Up</h5>
+        <p><i>All walk-in registrations must be paid with cash or check</i></p>
+
+        <b>Thursday, Apr 6 (12-8pm)</b><br/>
+        <b>Friday, Apr 7 (12-7pm)</b>
+        <p>
+        Fleet Feet Pittsburgh<br/>
+        1751 N. Highland Rd.<br/>
+        Pittsburgh, PA 15241<br/>
+        </p>
+
+        <br/>
+
+        <b>Saturday April 8 (7-8:30am)</b>
+        <p>
+        Mt. Lebanon Rec Center<br/>
+        900 Cedar Blvd<br/>
+        Pittsburgh, PA 15228<br/>
+        </p>
+
+        <br/>
+
+        <h5>Race Day Parking</h5>
+        <p>
+        Participants and visitors may park at the upper high school lot, the stadium lot, the rec center and Dixon Field. Please note that these lots have restricted access from 8am through the last runner to protect your safety.
+        </p>
+        <p>
+        Alternative parking is also available at <b>Mt. Lebanon United Lutheran Church</b> (975 Washington Rd, Pittsburgh, PA 15228)
+        </p>
+
+        <br/>
+        <br/>
+        <h3>See you on Saturday!</h3>
+      </div>
+    </div>
+
     <div class="first-row">
 
       <section id="about" class="about-section light">
@@ -351,6 +412,7 @@ get_header(); ?>
         <div class="section-content">
         <?php
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/dollar-bank.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/wildthings.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mass.jpg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/asics.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/au-bon-pain.jpeg') . ');"></div>';

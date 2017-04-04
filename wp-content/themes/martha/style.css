@@ -15,6 +15,46 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Martha is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 */
 
+.popup {
+	display: none;
+}
+
+.popup.open {
+	display: block;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	z-index: 9999;
+	top: 0px;
+	font-size: 16px;
+}
+
+.popup .popup-content {
+	display: block;
+  background-color: white;
+  width: 80%;
+	max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.popup-title {
+	color: #03A9F4;
+}
+
+.popup-table {
+	max-width: 300px;
+}
+
+.popup-close {
+	float: right;
+	cursor: pointer;
+	color: #d65050;
+	font-size: 20px;
+}
+
 /*--------------------------------------------------------------
 Social
 --------------------------------------------------------------*/
