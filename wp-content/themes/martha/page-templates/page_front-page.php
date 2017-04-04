@@ -35,7 +35,7 @@ get_header(); ?>
 
         <b>Thursday, Apr 6 (12-8pm)</b><br/>
         <b>Friday, Apr 7 (12-7pm)</b>
-        <p>
+        <p class="address">
         Fleet Feet Pittsburgh<br/>
         1751 N. Highland Rd.<br/>
         Pittsburgh, PA 15241<br/>
@@ -44,7 +44,7 @@ get_header(); ?>
         <br/>
 
         <b>Saturday April 8 (7-8:30am)</b>
-        <p>
+        <p class="address">
         Mt. Lebanon Rec Center<br/>
         900 Cedar Blvd<br/>
         Pittsburgh, PA 15228<br/>

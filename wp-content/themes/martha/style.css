@@ -67,6 +67,11 @@ Martha is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic,
 	text-decoration: underline;
 }
 
+.popup .address {
+	color: #5a5a5a;
+  font-weight: 100;
+}
+
 /*--------------------------------------------------------------
 Social
 --------------------------------------------------------------*/
