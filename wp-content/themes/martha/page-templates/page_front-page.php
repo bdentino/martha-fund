@@ -26,7 +26,7 @@ get_header(); ?>
         <br/>
         </div>
 
-        <h5>Online Registration</h5>
+        <!-- <h5>Online Registration</h5> -->
         <p>Online registration is now closed. See below for in-person registration details.
         <br/>
 
@@ -272,11 +272,11 @@ get_header(); ?>
       <section id="register" class="race-register-section parallax dark">
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
-          <div class="bit-2"><div class="martha-run-logo"></div></div>
-          <div class="bit-2">
-            <div class="register-banner-text">Early Bird Registration is Open!</div>
-            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2017" class="roll-button">Sign Up Now</a></div>
-          </div>
+          <div class="bit-1"><div class="martha-run-logo"></div></div>
+          <!-- <div class="bit-2"> -->
+            <!-- <div class="register-banner-text">See you on April 8th for Martha's Run 21!</div> -->
+            <!-- <div class="registration-card"><a href="https://marthasrun.webconnex.com/2017" class="roll-button">Sign Up Now</a></div> -->
+          <!-- </div> -->
         </div>
       </section>
 
@@ -295,7 +295,7 @@ get_header(); ?>
             <p>
             In addition to the <b>10K race</b>, Martha's Run events include a <b>2-mile run</b> and a <b>1-mile run/walk</b> open to all ages. And because the Martha
             Fund is all about the kids, all children are invited to participate in the thrilling <b>Kid's Races</b> held on the Mt. Lebanon High School track at the
-            conclusion of the 10K. <a href="https://marthasrun.webconnex.com/2017">Register today</a> and join us for the 21st annual Martha's Run on <span><b>Saturday April 8, 2017</b></span>.
+            conclusion of the 10K. We hope you'll join us for the 21st annual Martha's Run on <span><b>Saturday April 8, 2017</b></span>.
             </p>
             <p>
             Each year we seek corporate support to help us meet the costs of Martha’s Run, and we offer various forms of recognition or advertising in return.
@@ -310,7 +310,7 @@ get_header(); ?>
 
           <div class="bit-2 course-map-container">
             <div class="course-map-group">
-            <div class="course-map-caption"><a href="https://marthasrun.webconnex.com/2017">Register today</a> for the 21st annual Martha's Run on <span><b>Saturday April 8, 2017!</b></span></div>
+            <div class="course-map-caption">The 21st annual Martha's Run is on <span><b>Saturday April 8, 2017!</b></span></div>
             <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
           </div>
