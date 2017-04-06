@@ -27,7 +27,7 @@ get_header(); ?>
         </div>
 
         <h5>Online Registration</h5>
-        <p>Online registration will remain open until April 5th. <a href="https://marthasrun.webconnex.com/2017">Register Now!</a></p>
+        <p>Online registration is now closed. See below for in-person registration details.
         <br/>
 
         <h5>Walk-in Registration and Packet Pick Up</h5>
