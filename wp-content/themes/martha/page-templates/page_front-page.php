@@ -26,8 +26,9 @@ get_header(); ?>
         <br/>
         </div>
 
-        <!-- <h5>Online Registration</h5> -->
-        <p>Online registration is now closed. See below for in-person registration details.
+        <h5>Race Results</h5>
+        <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
+
         <br/>
 
         <h5>Walk-in Registration and Packet Pick Up</h5>
