@@ -5,7 +5,7 @@ Template Name: Front Page
 
 get_header(); ?>
   <main id="main" class="site-main" role="main">
-    <div class="popup">
+<!--     <div class="popup">
       <div class="popup-content">
         <div class="popup-close">CLOSE</div>
         <h3><span class="popup-title">Martha's Run 2017</span> is almost here!</h3>
@@ -65,7 +65,7 @@ get_header(); ?>
         <br/>
         <h3>See you on Saturday!</h3>
       </div>
-    </div>
+    </div> -->
 
     <div class="first-row">
 
