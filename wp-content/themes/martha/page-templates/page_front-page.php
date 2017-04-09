@@ -319,92 +319,35 @@ get_header(); ?>
       </section>
 
       <section id="pictures" class="pictures-section">
-        <h3 class="section-title">2016 Race Highlights</h3>
+        <h3 class="section-title">2017 Race Highlights</h3>
         <ul id="light-slider">
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/P6XPNCC-Bx.jpg")' />
-              <div class="caption">
-                  <p>Cara DeCarlo blew through the course to become our overall women's champion with a time of 42:58</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/bMTrVOCm9u.jpg")' />
           </li>
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/PVlJBaV1tZ.jpg")' />
-              <div class="caption">
-                  <p>Brad Popple came ready to race too, capturing the overall men's trophy with an impressive time of 35:03</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/hhVQlPKzmM.jpg")' />
           </li>
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/kryzQETysl.jpg")' />
-              <div class="caption">
-                  <p>Our law enforcement division winners, Stephen Kaufman and Brook Riordan</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/RsJs6CD4gM.jpg")' />
           </li>
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/We4J0fzIUj.jpg")' />
-              <div class="caption">
-                  <p>Paul Dixon hands awards to Stanley Wolowski (20) and John Maliky (19), who have run every race with us since 1996</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/Om2kqBLx8O.jpg")' />
           </li>
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/ysGJO6XFYc.JPG")' />
-              <div class="caption">
-                  <p>Our gracious volunteers, up before dawn to lay down the cones and barricades that keep our runners safe</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/Jx6BqZuFbI.jpg")' />
           </li>
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/9esDCZ06qp.JPG")' />
-              <div class="caption">
-                  <p>Jeff Bedford, Martha's partner, gets a high-five from her sister Monica as he crosses the finish line</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/az44LHl08A.jpg")' />
           </li>
           <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/BKfhHmnsrX.JPG")' />
-              <div class="caption">
-                  <p>First one to finish and he doesn't even look tired! Great job Brad!</p>
-              </div>
+              <div class="slider-image" style='background-image:url("https://cldup.com/mEXL1WfDuI.jpg")' />
           </li>
-          <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/R4lwA6OftX.JPG")' />
-              <div class="caption">
-                  <p>Finishing off the miles with a great big smile :)</p>
-              </div>
-          </li>
-          <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/VHKFRtAdxO.JPG")' />
-              <div class="caption">
-                  <p>Our women's champion finished strong as she breaks through the tape. Way to go Cara!</p>
-              </div>
-          </li>
-          <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/0H7JRC2x95.JPG")' />
-              <div class="caption">
-                  <p>She looks ready to go again!</p>
-              </div>
-          </li>
-          <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/P5J6-ae8xt.JPG")' />
-              <div class="caption">
-                  <p>Despite the cold, our Martha's Run kids had a blast!</p>
-              </div>
-          </li>
-          <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/4JqjAq3Ywd.JPG")' />
-              <div class="caption">
-                  <p>11 weeks old makes this our youngest participant yet! We sure do start them early in Pittsburgh!</p>
-              </div>
-          </li>
-          <li>
-              <div class="slider-image" style='background-image:url("https://cldup.com/xhXQK9MdmV.JPG")' />
-              <div class="caption">
-                  <p>Martha's niece Katie is hoping for warmer weather in 2017, but we'll be running rain or shine!</p>
-              </div>
-          </li>
-          <li>
+<!--           <li>
               <div class="slider-image" style='background-image:url("https://cldup.com/gYbzizv3bP.jpeg")' />
               <div class="caption">
                   <p>Thanks to our runners and donors, we were able to contribute to St. Anne's School playground in 2016.</p>
               </div>
-          </li>
+          </li> -->
         </ul>
       </section>
 
