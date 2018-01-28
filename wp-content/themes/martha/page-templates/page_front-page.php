@@ -4,14 +4,24 @@ Template Name: Front Page
 */
 
 get_header(); ?>
+  <!-- DATE FINALIZED -->
+  <!-- REGISTRATION OPENED -->
+  <!-- SCHEDULE FINALIZED -->
+  <!-- BROCHURE CREATED -->
+  <!-- REGISTRATION CLOSED -->
+  <!-- RACE EXECUTED -->
+  <!-- PHOTOS RECEIVED -->
+
   <main id="main" class="site-main" role="main">
-<!--     <div class="popup">
+
+    <!-- AFTER SCHEDULE FINALIZED (enable popup() in main.js) -->
+    <div class="popup">
       <div class="popup-content">
         <div class="popup-close">CLOSE</div>
-        <h3><span class="popup-title">Martha's Run 2017</span> is almost here!</h3>
+        <h3><span class="popup-title">Martha's Run 2018</span> is almost here!</h3>
         <h5>Race Day Schedule</h5>
         <p>
-        <b>Saturday April 8, 2017<b><br/>
+        <b>Saturday April 14, 2018<b><br/>
         Mt. Lebanon High School Stadium
         </p>
 
@@ -26,6 +36,17 @@ get_header(); ?>
         <br/>
         </div>
 
+
+        <h5>Online Registration</h5>
+
+
+        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED -->
+        <p>Online registration will remain open until April 11th. <a href="https://marthasrun.webconnex.com/2018">Register Now!</a></p>
+
+        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
+        <p>Online registration is now closed. See below for in-person registration details.</p>
+        -->
+
         <h5>Race Results</h5>
         <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
 
@@ -34,8 +55,8 @@ get_header(); ?>
         <h5>Walk-in Registration and Packet Pick Up</h5>
         <p><i>All walk-in registrations must be paid with cash or check</i></p>
 
-        <b>Thursday, Apr 6 (12-8pm)</b><br/>
-        <b>Friday, Apr 7 (12-7pm)</b>
+        <b>Thursday, Apr 12 (12-8pm)</b><br/>
+        <b>Friday, Apr 13 (12-7pm)</b>
         <p class="address">
         Fleet Feet Pittsburgh<br/>
         1751 N. Highland Rd.<br/>
@@ -44,7 +65,7 @@ get_header(); ?>
 
         <br/>
 
-        <b>Saturday April 8 (7-8:30am)</b>
+        <b>Saturday April 14 (7-8:30am)</b>
         <p class="address">
         Mt. Lebanon Rec Center<br/>
         900 Cedar Blvd<br/>
@@ -65,7 +86,7 @@ get_header(); ?>
         <br/>
         <h3>See you on Saturday!</h3>
       </div>
-    </div> -->
+    </div>
 
     <div class="first-row">
 
@@ -273,11 +294,23 @@ get_header(); ?>
       <section id="register" class="race-register-section parallax dark">
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
+
+          <!-- IMMEDIATELY AFTER REGISTRATION OPEN -->
+          <div class="bit-2"><div class="martha-run-logo"></div></div>
+          <div class="bit-2">
+            <div class="register-banner-text">Early Bird Registration is Open!</div>
+            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
+          </div>
+
+
+          <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
-          <!-- <div class="bit-2"> -->
-            <!-- <div class="register-banner-text">See you on April 8th for Martha's Run 21!</div> -->
-            <!-- <div class="registration-card"><a href="https://marthasrun.webconnex.com/2017" class="roll-button">Sign Up Now</a></div> -->
-          <!-- </div> -->
+          <div class="bit-2">
+            <div class="register-banner-text">See you on April 14th for Martha's Run 2018!</div>
+            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
+          </div>
+          -->
+
         </div>
       </section>
 
@@ -296,28 +329,50 @@ get_header(); ?>
             <p>
             In addition to the <b>10K race</b>, Martha's Run events include a <b>2-mile run</b> and a <b>1-mile run/walk</b> open to all ages. And because the Martha
             Fund is all about the kids, all children are invited to participate in the thrilling <b>Kid's Races</b> held on the Mt. Lebanon High School track at the
-            conclusion of the 10K. We hope you'll join us for the 21st annual Martha's Run on <span><b>Saturday April 8, 2017</b></span>.
+            conclusion of the 10K.
+
+            <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
+            <a href="https://marthasrun.webconnex.com/2018">Register today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>
+            -->
+
+            <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED -->
+            We hope you'll join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>.
+
             </p>
             <p>
             Each year we seek corporate support to help us meet the costs of Martha’s Run, and we offer various forms of recognition or advertising in return.
             If you are interested in helping us sponsor our next event, please get in touch with us at <a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a>.
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
-<!--             <p>
-            For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a> -->
+
+            <!-- AFTER BROCHURE CREATED
+            <p>
+            For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a>
             </p>
+            -->
+
             </div>
           </div>
 
           <div class="bit-2 course-map-container">
             <div class="course-map-group">
-            <div class="course-map-caption">The 21st annual Martha's Run is on <span><b>Saturday April 8, 2017!</b></span></div>
-            <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
+
+              <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
+              <div class="course-map-caption">
+                <a href="https://marthasrun.webconnex.com/2018">Register today</a> for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018!</b></span>
+              </div>
+              -->
+
+              <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED -->
+              <div class="course-map-caption">The 22nd annual Martha's Run is on <span><b>Saturday April 14, 2018!</b></span></div>
+
+              <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- AFTER PHOTOS RECEIVED -->
       <section id="pictures" class="pictures-section">
         <h3 class="section-title">2017 Race Highlights</h3>
         <ul id="light-slider">

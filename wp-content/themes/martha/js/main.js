@@ -343,12 +343,12 @@
 	  });
 	}
 
-	// var popup = function() {
-	// 	$('.popup').addClass('open')
-	// 	$('.popup-close').click(function() {
-	// 		$('.popup').removeClass('open')
-	// 	})
-	// }
+	var popup = function() {
+		$('.popup').addClass('open')
+		$('.popup-close').click(function() {
+			$('.popup').removeClass('open')
+		})
+	}
 
 	// Dom Ready
 	$(function() {
