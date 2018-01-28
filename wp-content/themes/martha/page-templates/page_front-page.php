@@ -295,13 +295,20 @@ get_header(); ?>
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
 
-          <!-- IMMEDIATELY AFTER REGISTRATION OPEN -->
+          <!-- AFTER DATE FINALIZED -->
+          <div class="bit-1"><div class="martha-run-logo"></div></div>
+          <div class="bit-1">
+            <div class="register-banner-text">Registration opens on <b>Februrary 1st!</b></div>
+            <!-- <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div> -->
+          </div>
+
+          <!-- IMMEDIATELY AFTER REGISTRATION OPEN
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
             <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
           </div>
-
+          -->
 
           <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
