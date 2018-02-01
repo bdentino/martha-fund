@@ -340,9 +340,7 @@ get_header(); ?>
 
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
             -->
-            <a href="https://marthasrun.webconnex.com/2018">Register online today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>
-            There is also a <a href="https://drive.google.com/open?id=0B2-oplmOOYbPTEgwd203ZFU2SnVhTjFOS3E5eVE5Y3AxZmkw">mail-in registration form</a> for those who prefer not
-            to register online (please note that if you are mailing in your registration, there is a <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">separate registration form</a> for the children's races.)
+            <a href="https://marthasrun.webconnex.com/2018">Register online today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018.</b></span>
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
             We hope you'll join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>.
@@ -370,7 +368,14 @@ get_header(); ?>
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
               -->
               <div class="course-map-caption">
-                <a href="https://marthasrun.webconnex.com/2018">Register today</a> for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018!</b></span>
+                <a href="https://marthasrun.webconnex.com/2018">Register online today</a> for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018!</b></span>
+
+                <div class="course-map-subcaption">
+                  <u>Mail-In Registration Options</u>
+                  <br>
+                  <a href="https://drive.google.com/open?id=0B2-oplmOOYbPTEgwd203ZFU2SnVhTjFOS3E5eVE5Y3AxZmkw">Adult Races</a>&nbsp;&nbsp;&nbsp;
+                  <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a>
+                </div>
               </div>
 
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED

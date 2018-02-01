@@ -3088,9 +3088,19 @@ Panels
 	.run-section .course-map-caption {
 		max-width: 400px;
 		text-align: center;
-    font-size: 24px;
-    line-height: 44px;
+		font-size: 24px;
+		line-height: 44px;
+		margin: auto;
+	}
+
+	.run-section .course-map-subcaption {
+    max-width: 400px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
     margin: auto;
+    margin-top: 16px;
+    font-weight: 100;
 	}
 
 	.race-register-section {
