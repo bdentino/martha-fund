@@ -295,20 +295,20 @@ get_header(); ?>
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
 
-          <!-- AFTER DATE FINALIZED -->
+          <!-- AFTER DATE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
           <div class="bit-1">
             <div class="register-banner-text">Registration opens on <b>Februrary 1st!</b></div>
-            <!-- <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div> -->
           </div>
+          -->
 
           <!-- IMMEDIATELY AFTER REGISTRATION OPEN
+          -->
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
             <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
           </div>
-          -->
 
           <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
@@ -339,11 +339,14 @@ get_header(); ?>
             conclusion of the 10K.
 
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-            <a href="https://marthasrun.webconnex.com/2018">Register today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>
             -->
+            <a href="https://marthasrun.webconnex.com/2018">Register online today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>
+            There is also a <a href="https://drive.google.com/open?id=0B2-oplmOOYbPTEgwd203ZFU2SnVhTjFOS3E5eVE5Y3AxZmkw">mail-in registration form</a> for those who prefer not
+            to register online (please note that if you are mailing in your registration, there is a <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">separate registration form</a> for the children's races.)
 
-            <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED -->
+            <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
             We hope you'll join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>.
+            -->
 
             </p>
             <p>
@@ -365,13 +368,14 @@ get_header(); ?>
             <div class="course-map-group">
 
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
+              -->
               <div class="course-map-caption">
                 <a href="https://marthasrun.webconnex.com/2018">Register today</a> for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018!</b></span>
               </div>
-              -->
 
-              <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED -->
+              <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
               <div class="course-map-caption">The 22nd annual Martha's Run is on <span><b>Saturday April 14, 2018!</b></span></div>
+              -->
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
