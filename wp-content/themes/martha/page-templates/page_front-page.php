@@ -40,12 +40,13 @@ get_header(); ?>
         <h5>Online Registration</h5>
 
 
-        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED -->
+        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
         <p>Online registration will remain open until April 11th. <a href="https://marthasrun.webconnex.com/2018">Register Now!</a></p>
+        -->
 
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
-        <p>Online registration is now closed. See below for in-person registration details.</p>
         -->
+        <p>Online registration is now closed. See below for in-person registration details.</p>
 
         <h5>Race Results</h5>
         <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
@@ -295,20 +296,20 @@ get_header(); ?>
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
 
-          <!-- AFTER DATE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
+          <!-- AFTER DATE FINALIZED
           <div class="bit-1">
             <div class="register-banner-text">Registration opens on <b>Februrary 1st!</b></div>
           </div>
           -->
 
           <!-- IMMEDIATELY AFTER REGISTRATION OPEN
-          -->
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
             <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
           </div>
+          -->
 
           <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
@@ -339,12 +340,12 @@ get_header(); ?>
             conclusion of the 10K.
 
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-            -->
             <a href="https://marthasrun.webconnex.com/2018">Register online today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018.</b></span>
+            -->
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
-            We hope you'll join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>.
             -->
+            We hope you'll join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>.
 
             </p>
             <p>
@@ -366,7 +367,6 @@ get_header(); ?>
             <div class="course-map-group">
 
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-              -->
               <div class="course-map-caption">
                 <a href="https://marthasrun.webconnex.com/2018">Register online today</a> for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018!</b></span>
 
@@ -377,10 +377,11 @@ get_header(); ?>
                   <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a>
                 </div>
               </div>
+              -->
 
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
-              <div class="course-map-caption">The 22nd annual Martha's Run is on <span><b>Saturday April 14, 2018!</b></span></div>
               -->
+              <div class="course-map-caption">The 22nd annual Martha's Run is on <span><b>Saturday April 14, 2018!</b></span></div>
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
