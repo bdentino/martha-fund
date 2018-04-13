@@ -30,8 +30,8 @@ get_header(); ?>
         <tr><td>10k</td><td>9:00am</td></tr>
         <tr><td>2-Mile Fun Run</td><td>9:00am</td></tr>
         <tr><td>1-Mile Memorial Walk</td><td>9:00am</td></tr>
-        <tr><td>Children's Races</td><td>10:15am</td></tr>
-        <tr><td>Awards & Raffle</td><td>After races</td></tr>
+        <tr><td>Children's Races</td><td>10:00am</td></tr>
+        <tr><td>Awards & Raffle, hosted by KDKA's Larry Richert</td><td>After races</td></tr>
         </table>
         <br/>
         </div>
@@ -54,10 +54,9 @@ get_header(); ?>
         <br/>
 
         <h5>Walk-in Registration and Packet Pick Up</h5>
-        <p><i>All walk-in registrations must be paid with cash or check</i></p>
 
-        <b>Thursday, Apr 12 (12-8pm)</b><br/>
-        <b>Friday, Apr 13 (12-7pm)</b>
+        <b>Thursday, Apr 12 (4-7pm)</b><br/>
+        <b>Friday, Apr 13 (4-7pm)</b>
         <p class="address">
         Fleet Feet Pittsburgh<br/>
         1751 N. Highland Rd.<br/>
