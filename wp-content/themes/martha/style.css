@@ -72,7 +72,7 @@ Martha is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic,
   font-weight: 100;
 }
 
-.menu-main-menu li:last-of-type {
+#menu-main-menu li:last-of-type {
   background-color: #f23d6e;
   border-radius: 2px;
   padding-left: 16px;
