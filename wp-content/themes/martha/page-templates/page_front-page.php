@@ -8,6 +8,7 @@ get_header(); ?>
   <!-- REGISTRATION OPENED -->
   <!-- SCHEDULE FINALIZED -->
   <!-- BROCHURE CREATED -->
+  <!-- MAIL IN REGISTRATION CREATED -->
   <!-- REGISTRATION CLOSED -->
   <!-- RACE EXECUTED -->
   <!-- PHOTOS RECEIVED -->
@@ -18,10 +19,10 @@ get_header(); ?>
     <div class="popup">
       <div class="popup-content">
         <div class="popup-close">CLOSE</div>
-        <h3><span class="popup-title">Martha's Run 2018</span> is almost here!</h3>
+        <h3><span class="popup-title">Martha's Run 2019</span> is almost here!</h3>
         <h5>Race Day Schedule</h5>
         <p>
-        <b>Saturday April 14, 2018<b><br/>
+        <b>Saturday April 13, 2019<b><br/>
         Mt. Lebanon High School Stadium
         </p>
 
@@ -41,12 +42,12 @@ get_header(); ?>
 
 
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
-        <p>Online registration will remain open until April 11th. <a href="https://marthasrun.webconnex.com/2018">Register Now!</a></p>
+        <p>Online registration will remain open until April 10th. <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register Now!</a></p>
         -->
 
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
-        -->
         <p>Online registration is now closed. See below for in-person registration details.</p>
+        -->
 
         <h5>Race Results</h5>
         <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
@@ -65,7 +66,7 @@ get_header(); ?>
 
         <br/>
 
-        <b>Saturday April 14 (7-8:30am)</b>
+        <b>Saturday April 13 (7-8:30am)</b>
         <p class="address">
         Mt. Lebanon Rec Center<br/>
         900 Cedar Blvd<br/>
@@ -172,7 +173,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-calendar"></i>
-              <div class="numb-container"><span class="numb-count" data-to="22" data-speed="500" data-waypoint-active="yes">21</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="23" data-speed="500" data-waypoint-active="yes">21</span></div>
               <div class="name-count">Years</div>
             </div>
           </div>
@@ -295,7 +296,8 @@ get_header(); ?>
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
 
-          <div class="bit-1"><div class="martha-run-logo"></div></div>
+          <!-- <div class="bit-1"><div class="martha-run-logo"></div></div> -->
+
           <!-- AFTER DATE FINALIZED
           <div class="bit-1">
             <div class="register-banner-text">Registration opens on <b>Februrary 1st!</b></div>
@@ -303,18 +305,18 @@ get_header(); ?>
           -->
 
           <!-- IMMEDIATELY AFTER REGISTRATION OPEN
+          -->
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
-            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
+            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Sign Up Now</a></div>
           </div>
-          -->
 
           <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
-            <div class="register-banner-text">See you on April 14th for Martha's Run 2018!</div>
-            <div class="registration-card"><a href="https://marthasrun.webconnex.com/2018" class="roll-button">Sign Up Now</a></div>
+            <div class="register-banner-text">See you on April 13th for Martha's Run 2019!</div>
+            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Sign Up Now</a></div>
           </div>
           -->
 
@@ -339,12 +341,12 @@ get_header(); ?>
             conclusion of the 10K.
 
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-            <a href="https://marthasrun.webconnex.com/2018">Register online today</a> and join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018.</b></span>
             -->
+            <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> and join us for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019.</b></span>
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
+            We hope you'll join us for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019</b></span>.
             -->
-            We hope you'll join us for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018</b></span>.
 
             </p>
             <p>
@@ -366,9 +368,11 @@ get_header(); ?>
             <div class="course-map-group">
 
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
+              -->
               <div class="course-map-caption">
-                <a href="https://marthasrun.webconnex.com/2018">Register online today</a> for the 22nd annual Martha's Run on <span><b>Saturday April 14, 2018!</b></span>
+                <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019!</b></span>
 
+              <!-- AFTER MAIL-IN REGISTRATION FORMS READY
                 <div class="course-map-subcaption">
                   <u>Mail-In Registration Options</u>
                   <br>
@@ -379,8 +383,8 @@ get_header(); ?>
               -->
 
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
+              <div class="course-map-caption">The 23nd annual Martha's Run is on <span><b>Saturday April 13, 2019!</b></span></div>
               -->
-              <div class="course-map-caption">The 22nd annual Martha's Run is on <span><b>Saturday April 14, 2018!</b></span></div>
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
@@ -436,7 +440,7 @@ get_header(); ?>
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/coffee-tree-roasters.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/ditto-document-solutions.gif') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/fbi.jpeg') . ');"></div>';
-          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/fleet-feet.png') . ');"></div>';
+          echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/fleet-feet-new.jpg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/ithen-global.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/knepper-press.jpeg') . ');"></div>';
           echo '<div class="fund-sponsor-logo" style="background-image:url(' . esc_url(get_template_directory_uri() . '/images/logos/mt-lebanon.jpeg') . ');"></div>';
