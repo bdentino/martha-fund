@@ -215,7 +215,7 @@ get_header(); ?>
               <h2>The Beginning</h2>
               <p>
               The Martha Fund is formed as a 501(c)(3) charitable trust fund to honor Martha's sacrifice and celebrate her life. With a Board of Directors and trustees
-              consisting of present of members of Martha's family, Ken Dixon, her father and the retired Allegheny County Director of Elections, served as the
+              consisting of members of Martha's family, Ken Dixon, her father and the retired Allegheny County Director of Elections, served as the
               Chairman of the Board and one of five trustees until his death in 2000.
               </p>
               <span class="cd-date">1995</span>
@@ -228,7 +228,7 @@ get_header(); ?>
             <div class="cd-timeline-content">
               <h2>FBI Recognition</h2>
               <p>
-              On May 21, Martha is posthumously awarded the FBI Memorial Star and Medal of Valor. The plaque accepted by her parents read "The heroic actions of
+              On May 21, Martha Dixon Martinez is posthumously awarded the FBI Memorial Star and Medal of Valor. The plaque accepted by her parents read "The heroic actions of
               Agent Martinez prevented the possibility of even greater loss of life and serious injury to other law enforcement officials and citizens within the building."
               </p>
               <span class="cd-date">1996</span>
@@ -267,8 +267,7 @@ get_header(); ?>
             <div class="cd-timeline-content">
               <h2>Martha's Playground</h2>
               <p>
-                On April 7, 2007, the dream of building Martha's Playground was realized with the unveiling of Mount Lebanon's first-ever
-                park, located in the heart of the community where Martha grew up. There is no better place in the neighborhood to enjoy a sunny day.
+                On April 7, 2007, the dream of building Martha's Playground was realized with the unveiling of the first-ever Martha's Playground in Mt. Lebanon Park, located in the heart of the community where Martha grew up. There is no better place in the neighborhood to enjoy a sunny day.
               </p>
               <span class="cd-date">2007</span>
             </div>

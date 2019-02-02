@@ -1173,6 +1173,12 @@ Hero section
 		padding: 20px 0 50px;
 		font-weight: 300;
 	}
+	.text-slider-section .button-slider-caption {
+    color: lightgray;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 100;
+	}
 /*--------------------------------------------------------------
 Page title
 --------------------------------------------------------------*/

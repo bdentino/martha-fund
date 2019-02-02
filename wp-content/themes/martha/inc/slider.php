@@ -35,6 +35,7 @@ function martha_slider_template() {
         $slider_subtitle_5  = get_theme_mod('slider_subtitle_5');
         $slider_button      = get_theme_mod('slider_button_text', 'Become a Donor');
         $slider_button_url  = get_theme_mod('slider_button_url','#donate');
+        $slider_button_caption = get_theme_mod('slider_button_caption');
     } else {
         $slider_title_1     = pll__(get_theme_mod('slider_title_1', 'Let\'s Make Pittsburgh Smile'));
         $slider_title_2     = pll__(get_theme_mod('slider_title_2'));
@@ -48,6 +49,7 @@ function martha_slider_template() {
         $slider_subtitle_5  = pll__(get_theme_mod('slider_subtitle_5'));
         $slider_button      = pll__(get_theme_mod('slider_button_text', 'Become a Donor'));
         $slider_button_url  = pll__(get_theme_mod('slider_button_url','#donate'));
+        $slider_button_caption = pll__(get_theme_mod('slider_button_caption'));
     }
 
 	?>
@@ -121,6 +123,9 @@ function martha_slider_template() {
             </div>
             <?php if ($slider_button) : ?>
                 <a href="<?php echo esc_url($slider_button_url); ?>" class="roll-button button-slider"><?php echo esc_html($slider_button); ?></a>
+            <?php endif; ?>
+            <?php if ($slider_button_caption) : ?>
+                <div class="button-slider-caption"><?php echo esc_html($slider_button_caption); ?></div>
             <?php endif; ?>
         </div>
 

@@ -608,6 +608,22 @@ function martha_customize_register( $wp_customize ) {
             'priority' => 32
         )
     );
+    $wp_customize->add_setting(
+        'slider_button_caption',
+        array(
+            'default' => __('Become a Donor','martha'),
+            'sanitize_callback' => 'martha_sanitize_text',
+        )
+    );
+    $wp_customize->add_control(
+        'slider_button_caption',
+        array(
+            'label' => __( 'Text below your call to action button', 'martha' ),
+            'section' => 'martha_slider',
+            'type' => 'text',
+            'priority' => 33
+        )
+    );
     //___Menu style___//
     $wp_customize->add_section(
         'martha_menu_style',

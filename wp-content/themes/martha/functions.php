@@ -264,6 +264,7 @@ function martha_polylang() {
 	}
 	pll_register_string('Slider button text', get_theme_mod('slider_button_text'), 'Martha');
 	pll_register_string('Slider button URL', get_theme_mod('slider_button_url'), 'Martha');
+	pll_register_string('Slider button caption', get_theme_mod('slider_button_caption'), 'Martha');
 }
 add_action( 'admin_init', 'martha_polylang' );
 endif;
