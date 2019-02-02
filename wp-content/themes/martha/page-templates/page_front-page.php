@@ -394,7 +394,7 @@ get_header(); ?>
 
       <!-- AFTER PHOTOS RECEIVED -->
       <section id="pictures" class="pictures-section">
-        <h3 class="section-title">2017 Race Highlights</h3>
+        <h3 class="section-title">2018 Race Highlights</h3>
         <ul id="light-slider">
           <li>
               <div class="slider-image" style='background-image:url("https://cldup.com/bMTrVOCm9u.jpg")' />
