@@ -40,9 +40,8 @@ get_header(); ?>
 
         <h5>Online Registration</h5>
 
-
-        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
         <p>Online registration will remain open until April 10th. <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register Now!</a></p>
+        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
         -->
 
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
@@ -56,8 +55,8 @@ get_header(); ?>
 
         <h5>Walk-in Registration and Packet Pick Up</h5>
 
-        <b>Thursday, Apr 12 (4-7pm)</b><br/>
-        <b>Friday, Apr 13 (4-7pm)</b>
+        <b>Thursday, Apr 11 (4-7pm)</b><br/>
+        <b>Friday, Apr 12 (4-7pm)</b>
         <p class="address">
         Fleet Feet Pittsburgh<br/>
         1751 N. Highland Rd.<br/>
@@ -111,7 +110,7 @@ get_header(); ?>
 
             <p>
 
-            Martha received her undergraduate degree in biology from the University of Pittsburgh
+            Martha received her undergraduate degree in Chemistry from the University of Pittsburgh
 
             in 1982 and worked as a forensic chemist for the Arkansas State Crime Lab. She joined
 
@@ -304,19 +303,19 @@ get_header(); ?>
           -->
 
           <!-- IMMEDIATELY AFTER REGISTRATION OPEN
-          -->
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
             <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Sign Up Now</a></div>
           </div>
+          -->
 
-          <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">See you on April 13th for Martha's Run 2019!</div>
-            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Sign Up Now</a></div>
+            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Register Now</a></div>
           </div>
+          <!-- AFTER SCHEDULE FINALIZED
           -->
 
         </div>
@@ -354,10 +353,10 @@ get_header(); ?>
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
 
-            <!-- AFTER BROCHURE CREATED
             <p>
-            For mail-in registration and more race details, <a href="https://cloudup.com/cybNSX7ahPp">download the brochure</a>
+            For mail-in registration and more race details, <a href="https://drive.google.com/open?id=0B2-oplmOOYbPQWJ2c1N2MTFtOTdIbkJHMkhMMVhfOXhDMU5r">download the paper registration form</a>
             </p>
+            <!-- AFTER BROCHURE CREATED
             -->
 
             </div>
@@ -371,14 +370,14 @@ get_header(); ?>
               <div class="course-map-caption">
                 <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019!</b></span>
 
-              <!-- AFTER MAIL-IN REGISTRATION FORMS READY
                 <div class="course-map-subcaption">
                   <u>Mail-In Registration Options</u>
                   <br>
                   <a href="https://drive.google.com/open?id=0B2-oplmOOYbPTEgwd203ZFU2SnVhTjFOS3E5eVE5Y3AxZmkw">Adult Races</a>&nbsp;&nbsp;&nbsp;
-                  <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a>
+                  <!-- <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a> -->
                 </div>
               </div>
+              <!-- AFTER MAIL-IN REGISTRATION FORMS READY
               -->
 
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
