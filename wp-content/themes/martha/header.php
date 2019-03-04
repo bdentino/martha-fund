@@ -7,10 +7,20 @@
  * @package Martha
  */
 ?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html
+	<?php language_attributes(); ?>
+	xmlns:og="http://ogp.me/ns#"
+>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="The Martha Fund"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://themarthafund.org"/>
+<meta property="og:image" content="<?php echo esc_url(get_template_directory_uri() . '/images/runners/kids2-bw.jpeg'); ?>"/>
+<meta property="og:site_name" content="The Martha Fund"/>
+<meta property="og:description"
+      content="Register today for Martha's Run 2019 and join us at 9:00am on Saturday, April 13th for the toughest 10K in Pittsburgh!"/>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) : ?>
