@@ -1,10 +1,9 @@
 version: '2'
-volumes:
-  mysql:
-    driver: local
+
 networks:
   local-proxy:
     external: true
+
 services:
 
   wordpress:
@@ -31,4 +30,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: marthafund
     volumes:
-      - mysql:/var/lib/mysql
+      - ./db:/var/lib/mysql

@@ -31,8 +31,8 @@ get_header(); ?>
         <tr><td>10k</td><td>9:00am</td></tr>
         <tr><td>2-Mile Fun Run</td><td>9:00am</td></tr>
         <tr><td>1-Mile Memorial Walk</td><td>9:00am</td></tr>
-        <tr><td>Children's Races</td><td>10:00am</td></tr>
-        <tr><td>Awards & Raffle, hosted by KDKA's Larry Richert</td><td>After races</td></tr>
+        <tr><td>Children's Races</td><td>10:15am</td></tr>
+        <tr><td>Awards Ceremony @ Martha's Playground Pavillion with food, water, and prizes!</td><td>Immediately after kids races</td></tr>
         </table>
         <br/>
         </div>
@@ -76,10 +76,7 @@ get_header(); ?>
 
         <h5>Race Day Parking</h5>
         <p>
-        Participants and visitors may park at the upper high school lot, the stadium lot, the rec center and Dixon Field. Please note that these lots have restricted access from 8am through the last runner to protect your safety.
-        </p>
-        <p>
-        Alternative parking is also available at <b>Mt. Lebanon United Lutheran Church</b> (975 Washington Rd, Pittsburgh, PA 15228)
+        We encourage people to park at Dixon field on Cedar Blvd or Mt Lebanon Lutheran Church on Washington road. If you park at the high school you will not be allowed to leave before the end of the race. For those parking in the rec center, you will need to be escorted by a volunteer if you need to leave between 9-10:30
         </p>
 
         <br/>
