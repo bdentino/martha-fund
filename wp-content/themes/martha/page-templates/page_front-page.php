@@ -40,12 +40,12 @@ get_header(); ?>
 
         <h5>Online Registration</h5>
 
-        <p>Online registration will remain open until April 10th. <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register Now!</a></p>
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
+        <p>Online registration will remain open until April 10th. <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register Now!</a></p>
         -->
 
-        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
         <p>Online registration is now closed. See below for in-person registration details.</p>
+        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
         -->
 
         <h5>Race Results</h5>
@@ -307,12 +307,18 @@ get_header(); ?>
           </div>
           -->
 
+          <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">See you on April 13th for Martha's Run 2019!</div>
             <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Register Now</a></div>
           </div>
-          <!-- AFTER SCHEDULE FINALIZED
+          -->
+
+          <div class="bit-1">
+            <div class="register-banner-text">See you on April 13th for Martha's Run 2019!</b></div>
+          </div>
+          <!-- AFTER REGISTRATION CLOSED
           -->
 
         </div>
@@ -336,11 +342,11 @@ get_header(); ?>
             conclusion of the 10K.
 
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-            -->
             <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> and join us for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019.</b></span>
+            -->
 
-            <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
             We hope you'll join us for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019</b></span>.
+            <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
             -->
 
             </p>
@@ -363,7 +369,6 @@ get_header(); ?>
             <div class="course-map-group">
 
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-              -->
               <div class="course-map-caption">
                 <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019!</b></span>
 
@@ -371,14 +376,16 @@ get_header(); ?>
                   <u>Mail-In Registration Options</u>
                   <br>
                   <a href="https://drive.google.com/open?id=0B2-oplmOOYbPTEgwd203ZFU2SnVhTjFOS3E5eVE5Y3AxZmkw">Adult Races</a>&nbsp;&nbsp;&nbsp;
-                  <!-- <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a> -->
+                  <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a>
                 </div>
               </div>
+              -->
+
               <!-- AFTER MAIL-IN REGISTRATION FORMS READY
               -->
 
-              <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
               <div class="course-map-caption">The 23nd annual Martha's Run is on <span><b>Saturday April 13, 2019!</b></span></div>
+              <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
               -->
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
