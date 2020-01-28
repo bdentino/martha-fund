@@ -19,10 +19,10 @@ get_header(); ?>
     <div class="popup">
       <div class="popup-content">
         <div class="popup-close">CLOSE</div>
-        <h3><span class="popup-title">Martha's Run 2019</span> is almost here!</h3>
+        <h3><span class="popup-title">Martha's Run 2020</span> is almost here!</h3>
         <h5>Race Day Schedule</h5>
         <p>
-        <b>Saturday April 13, 2019<b><br/>
+        <b>Saturday April 11, 2020<b><br/>
         Mt. Lebanon High School Stadium
         </p>
 
@@ -40,12 +40,12 @@ get_header(); ?>
 
         <h5>Online Registration</h5>
 
+        <p>Online registration will remain open until April 8th. <a href="https://themarthafund.redpodium.com/marthas-run-2020">Register Now!</a></p>
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
-        <p>Online registration will remain open until April 10th. <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register Now!</a></p>
         -->
 
-        <p>Online registration is now closed. See below for in-person registration details.</p>
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
+        <p>Online registration is now closed. See below for in-person registration details.</p>
         -->
 
         <h5>Race Results</h5>
@@ -65,7 +65,7 @@ get_header(); ?>
 
         <br/>
 
-        <b>Saturday April 13 (7-8:30am)</b>
+        <b>Saturday April 11 (7-8:30am)</b>
         <p class="address">
         Mt. Lebanon Rec Center<br/>
         900 Cedar Blvd<br/>
@@ -169,7 +169,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-calendar"></i>
-              <div class="numb-container"><span class="numb-count" data-to="23" data-speed="500" data-waypoint-active="yes">21</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="24" data-speed="500" data-waypoint-active="yes">24</span></div>
               <div class="name-count">Years</div>
             </div>
           </div>
@@ -299,26 +299,26 @@ get_header(); ?>
           </div>
           -->
 
-          <!-- IMMEDIATELY AFTER REGISTRATION OPEN
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
-            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Sign Up Now</a></div>
+            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2020" class="roll-button">Sign Up Now</a></div>
           </div>
+          <!-- IMMEDIATELY AFTER REGISTRATION OPEN
           -->
 
           <!-- AFTER SCHEDULE FINALIZED
           <div class="bit-1"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
-            <div class="register-banner-text">See you on April 13th for Martha's Run 2019!</div>
-            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2019" class="roll-button">Register Now</a></div>
+            <div class="register-banner-text">See you on April 11th for Martha's Run 2020!</div>
+            <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2020" class="roll-button">Register Now</a></div>
           </div>
           -->
 
-          <div class="bit-1">
-            <div class="register-banner-text">See you on April 13th for Martha's Run 2019!</b></div>
-          </div>
           <!-- AFTER REGISTRATION CLOSED
+          <div class="bit-1">
+            <div class="register-banner-text">See you on April 11th for Martha's Run 2020!</b></div>
+          </div>
           -->
 
         </div>
@@ -341,12 +341,12 @@ get_header(); ?>
             Fund is all about the kids, all children are invited to participate in the thrilling <b>Kid's Races</b> held on the Mt. Lebanon High School track at the
             conclusion of the 10K.
 
+            <a href="https://themarthafund.redpodium.com/marthas-run-2020">Register online today</a> and join us for the 24th annual Martha's Run on <span><b>Saturday April 11, 2020.</b></span>
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-            <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> and join us for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019.</b></span>
             -->
 
-            We hope you'll join us for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019</b></span>.
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
+            We hope you'll join us for the 24th annual Martha's Run on <span><b>Saturday April 11, 2020</b></span>.
             -->
 
             </p>
@@ -356,10 +356,10 @@ get_header(); ?>
             The Martha Fund is a 501(c)(3) charitable organization, so that donations made to it are tax deductible to the donor, and we welcome any kind of support.
             </p>
 
+            <!-- AFTER BROCHURE CREATED
             <p>
             For mail-in registration and more race details, <a href="https://drive.google.com/open?id=0B2-oplmOOYbPQWJ2c1N2MTFtOTdIbkJHMkhMMVhfOXhDMU5r">download the paper registration form</a>
             </p>
-            <!-- AFTER BROCHURE CREATED
             -->
 
             </div>
@@ -370,7 +370,7 @@ get_header(); ?>
 
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
               <div class="course-map-caption">
-                <a href="https://themarthafund.redpodium.com/marthas-run-2019">Register online today</a> for the 23nd annual Martha's Run on <span><b>Saturday April 13, 2019!</b></span>
+                <a href="https://themarthafund.redpodium.com/marthas-run-2020">Register online today</a> for the 24th annual Martha's Run on <span><b>Saturday April 11, 2020!</b></span>
 
                 <div class="course-map-subcaption">
                   <u>Mail-In Registration Options</u>
@@ -384,7 +384,7 @@ get_header(); ?>
               <!-- AFTER MAIL-IN REGISTRATION FORMS READY
               -->
 
-              <div class="course-map-caption">The 23nd annual Martha's Run is on <span><b>Saturday April 13, 2019!</b></span></div>
+              <div class="course-map-caption">The 24th annual Martha's Run is on <span><b>Saturday April 11, 2020!</b></span></div>
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
               -->
 
@@ -396,7 +396,7 @@ get_header(); ?>
 
       <!-- AFTER PHOTOS RECEIVED -->
       <section id="pictures" class="pictures-section">
-        <h3 class="section-title">2018 Race Highlights</h3>
+        <h3 class="section-title">2019 Race Highlights</h3>
         <ul id="light-slider">
           <li>
               <div class="slider-image" style='background-image:url("https://cldup.com/bMTrVOCm9u.jpg")' />

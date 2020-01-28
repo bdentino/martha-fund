@@ -371,6 +371,6 @@
 		goTop();
 		removePreloader();
 		imgslider();
-		popup();
+		// popup();
   });
 })(jQuery);
