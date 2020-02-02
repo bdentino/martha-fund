@@ -62,8 +62,8 @@
   "@context": "https://schema.org",
   "@type": "Event",
   "name": "Martha's Run 10K",
-  "startDate": "2020-04-11T13:00",
-  "endDate": "2020-04-11T17:00",
+  "startDate": "2020-04-11T9:00",
+  "endDate": "2020-04-11T12:00",
   "location": {
     "@type": "Place",
     "name": "Mt Lebanon High School",
