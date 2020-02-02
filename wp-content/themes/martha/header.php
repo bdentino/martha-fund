@@ -76,7 +76,7 @@
       "addressCountry": "US"
     }
   },
-  "image": [ "./images/run-logos/2020/Basic+Flat+Transparent.png" ],
+  "image": [ "./wp-content/themes/martha/images/run-logos/2020/Basic+Flat+White.png" ],
   "description": "Martha's Run is an annual 10K through the hills of Mt Lebanon. Proceeds fund local playground projects."
 }
 </script>
