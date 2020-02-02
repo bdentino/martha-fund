@@ -57,6 +57,30 @@
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Martha's Run 10K",
+  "startDate": "2020-04-11T13:00",
+  "endDate": "2020-04-21T17:00",
+  "location": {
+    "@type": "Place",
+    "name": "Mt Lebanon High School",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "155 Cochran Rd",
+      "addressLocality": "Pittsburgh",
+      "postalCode": "15228",
+      "addressRegion": "PA",
+      "addressCountry": "US"
+    }
+  },
+  "image": [ "<?php echo url('./images/run-logos/2020/Basic Flat Transparent.png')?>" ],
+  "description": "Martha's Run is an annual 10K through the hills of Mt Lebanon. Proceeds fund local playground projects.",
+}
+</script>
+
 <?php wp_head(); ?>
 </head>
 
