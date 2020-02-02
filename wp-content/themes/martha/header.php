@@ -63,7 +63,7 @@
   "@type": "Event",
   "name": "Martha's Run 10K",
   "startDate": "2020-04-11T13:00",
-  "endDate": "2020-04-21T17:00",
+  "endDate": "2020-04-11T17:00",
   "location": {
     "@type": "Place",
     "name": "Mt Lebanon High School",
@@ -76,7 +76,7 @@
       "addressCountry": "US"
     }
   },
-  "image": [ "./wp-content/themes/martha/images/run-logos/2020/Basic+Flat+White.png" ],
+  "image": [ "./wp-content/themes/martha/images/run-logos/2020/Basic Flat White.png" ],
   "description": "Martha's Run is an annual 10K through the hills of Mt Lebanon. Proceeds fund local playground projects."
 }
 </script>
