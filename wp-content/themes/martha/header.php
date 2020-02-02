@@ -77,7 +77,7 @@
     }
   },
   "image": [ "./images/run-logos/2020/Basic+Flat+Transparent.png" ],
-  "description": "Martha's Run is an annual 10K through the hills of Mt Lebanon. Proceeds fund local playground projects.",
+  "description": "Martha's Run is an annual 10K through the hills of Mt Lebanon. Proceeds fund local playground projects."
 }
 </script>
 
