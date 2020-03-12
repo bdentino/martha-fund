@@ -688,7 +688,7 @@ get_header(); ?>
             <div class="address-city">Pittsburgh, PA 15234</div>
             <div class="address-email"><a href="mailto:themarthafund@gmail.com">themarthafund@gmail.com</a></div>
             <div class="donate-button">
-              <a href="https://marthasrun.webconnex.com/donation" class="roll-button">Donate via RedPodium</a>
+              <a href="https://themarthafund.redpodium.com/donations" class="roll-button">Donate via RedPodium</a>
             </div>
           </div>
         </div>
