@@ -291,7 +291,7 @@ get_header(); ?>
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
 
-          <div class="bit-1"><div class="martha-run-logo"></div></div>
+          <!-- <div class="bit-1"><div class="martha-run-logo"></div></div> -->
 
           <!-- AFTER DATE FINALIZED
           <div class="bit-1">
