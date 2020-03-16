@@ -291,7 +291,7 @@ get_header(); ?>
         <div class="slider-overlay"></div>
         <div class="race-register-container frame">
 
-          <!-- <div class="bit-1"><div class="martha-run-logo"></div></div> -->
+          <div class="bit-1"><div class="martha-run-logo"></div></div>
 
           <!-- AFTER DATE FINALIZED
           <div class="bit-1">
@@ -299,12 +299,12 @@ get_header(); ?>
           </div>
           -->
 
+          <!-- IMMEDIATELY AFTER REGISTRATION OPEN
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
             <div class="registration-card"><a href="https://themarthafund.redpodium.com/marthas-run-2020" class="roll-button">Sign Up Now</a></div>
           </div>
-          <!-- IMMEDIATELY AFTER REGISTRATION OPEN
           -->
 
           <!-- AFTER SCHEDULE FINALIZED
@@ -341,8 +341,8 @@ get_header(); ?>
             Fund is all about the kids, all children are invited to participate in the thrilling <b>Kid's Races</b> held on the Mt. Lebanon High School track at the
             conclusion of the 10K.
 
-            <a href="https://themarthafund.redpodium.com/marthas-run-2020">Register online today</a> and join us for the 24th annual Martha's Run on <span><b>Saturday April 11, 2020.</b></span>
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
+            <a href="https://themarthafund.redpodium.com/marthas-run-2020">Register online today</a> and join us for the 24th annual Martha's Run on <span><b>Saturday April 11, 2020.</b></span>
             -->
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
@@ -384,8 +384,8 @@ get_header(); ?>
               <!-- AFTER MAIL-IN REGISTRATION FORMS READY
               -->
 
-              <div class="course-map-caption">The 24th annual Martha's Run is on <span><b>Saturday April 11, 2020!</b></span></div>
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
+              <div class="course-map-caption">The 24th annual Martha's Run is on <span><b>Saturday April 11, 2020!</b></span></div>
               -->
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
