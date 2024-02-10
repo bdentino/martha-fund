@@ -169,7 +169,7 @@ get_header(); ?>
           <div class="bit-4">
             <div class="roll-counter">
               <i class="fa fa-calendar"></i>
-              <div class="numb-container"><span class="numb-count" data-to="24" data-speed="500" data-waypoint-active="yes">29</span></div>
+              <div class="numb-container"><span class="numb-count" data-to="29" data-speed="500" data-waypoint-active="yes">29</span></div>
               <div class="name-count">Years</div>
             </div>
           </div>
