@@ -307,7 +307,7 @@ get_header(); ?>
           </div>
           -->
 
-          <div class="bit-1"><div class="martha-run-logo"></div></div>
+          <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">See you on March 30th 2024 for Martha's Run 2024!</div>
             <div class="registration-card"><a href="https://runsignup.com/marthasrun" class="roll-button">Register Now</a></div>
@@ -371,12 +371,12 @@ get_header(); ?>
               <div class="course-map-caption">
                 <a href="https://runsignup.com/marthasrun">Register online today</a> for the 29th annual Martha's Run on <span><b>Saturday March 30th, 2024!</b></span>
 
-                <div class="course-map-subcaption">
+                <!-- <div class="course-map-subcaption">
                   <u>Mail-In Registration Options</u>
                   <br>
                   <a href="https://drive.google.com/open?id=0B2-oplmOOYbPTEgwd203ZFU2SnVhTjFOS3E5eVE5Y3AxZmkw">Adult Races</a>&nbsp;&nbsp;&nbsp;
                   <a href="https://drive.google.com/open?id=0B2-oplmOOYbPLUhqdFN1X3pxOElrdlAySWpBSHp2MXVoY1lZ">Children's Races</a>
-                </div>
+                </div> -->
               </div>
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
               -->
