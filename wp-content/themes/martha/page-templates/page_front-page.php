@@ -94,7 +94,7 @@ get_header(); ?>
 
         <br/>
         <br/>
-        <h3>Thanks for choosing this race and supporting our mission to honor Martha's legacy and build playgrounds; we are so grateful. See you on Saturday!</h3>
+        <b>Thanks for choosing this race and supporting our mission to honor Martha's legacy and build playgrounds; we are so grateful. See you on Saturday!</b>
       </div>
     </div>
 
