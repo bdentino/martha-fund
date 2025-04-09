@@ -76,6 +76,7 @@ get_header(); ?>
         Because of some road closures, we recommend parking in the Dixon Field parking lot. You will be able to access Cedar Blvd from that lot.
         </p>
 
+        <br/>
         <h5>Safety & Accommodations</h5>
         <p>
         Intersection monitors are stationed along the route and can assist in the event of an emergency.
@@ -85,6 +86,7 @@ get_header(); ?>
         2 water stops are available on the 10K course. Water and fruit will be available at the finish line, as well as your medal. <b>Joe Brand, voice of the Pittsburgh Penguins,</b> will be at the finish line to greet you.
         </p>
 
+        <br/>
         <h5>Awards</h5>
         <p>
         Fleet Feet has generously sponsored our prizes as well as our Packet Pick Up event.  
@@ -94,7 +96,7 @@ get_header(); ?>
 
         <br/>
         <br/>
-        <b>Thanks for choosing this race and supporting our mission to honor Martha's legacy and build playgrounds; we are so grateful. See you on Saturday!</b>
+        <b>Thanks for choosing this race and supporting our mission to honor Martha's legacy and build playgrounds; we are so grateful. See you on Saturday!</>
       </div>
     </div>
 
