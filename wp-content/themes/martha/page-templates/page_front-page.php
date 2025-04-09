@@ -22,17 +22,16 @@ get_header(); ?>
         <h3><span class="popup-title">Martha's Run 2025</span> is almost here!</h3>
         <h5>Race Day Schedule</h5>
         <p>
-        <b>Saturday April 12th 2025<b><br/>
-        Mt. Lebanon High School Stadium
-        </p>
+
 
         <div class="popup-table">
         <table>
+        <tr><td>Warmup & National Anthem</td><td>8:45am</td></tr>
         <tr><td>10k</td><td>9:00am</td></tr>
         <tr><td>2-Mile Fun Run</td><td>9:00am</td></tr>
         <tr><td>1-Mile Memorial Walk</td><td>9:00am</td></tr>
-        <tr><td>Children's Races</td><td>10:15am</td></tr>
-        <tr><td>Awards Ceremony @ Martha's Playground Pavillion with food, water, and prizes!</td><td>Immediately after kids races</td></tr>
+        <tr><td>Children's Races</td><td>9:00am</td></tr>
+        <tr><td>Awards Ceremony with food, water, and prizes!</td><td>After the 10k</td></tr>
         </table>
         <br/>
         </div>
@@ -40,7 +39,7 @@ get_header(); ?>
 
         <h5>Online Registration</h5>
 
-        <p>Online registration will remain open until April 8th. <a href="https://runsignup.com/marthasrun">Register Now!</a></p>
+        <p>Online registration will remain open until 11:59pm on April 10th. <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register Now!</a></p>
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
         -->
 
@@ -48,15 +47,13 @@ get_header(); ?>
         <p>Online registration is now closed. See below for in-person registration details.</p>
         -->
 
-        <h5>Race Results</h5>
+        <!-- <h5>Race Results</h5>
         <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
-
-        <br/>
+        <br/> -->
 
         <h5>Walk-in Registration and Packet Pick Up</h5>
 
-        <b>Thursday, Apr 11 (4-7pm)</b><br/>
-        <b>Friday, Apr 12 (4-7pm)</b>
+        <b>Friday, Apr 11 (4-7pm)</b><br/>
         <p class="address">
         Fleet Feet Pittsburgh<br/>
         1751 N. Highland Rd.<br/>
@@ -65,7 +62,7 @@ get_header(); ?>
 
         <br/>
 
-        <b>Saturday April 11 (7-8:30am)</b>
+        <b>Saturday April 11 (8-8:30am)</b>
         <p class="address">
         Mt. Lebanon Rec Center<br/>
         900 Cedar Blvd<br/>
@@ -76,12 +73,28 @@ get_header(); ?>
 
         <h5>Race Day Parking</h5>
         <p>
-        We encourage people to park at Dixon field on Cedar Blvd or Mt Lebanon Lutheran Church on Washington road. If you park at the high school you will not be allowed to leave before the end of the race. For those parking in the rec center, you will need to be escorted by a volunteer if you need to leave between 9-10:30
+        Because of some road closures, we recommend parking in the Dixon Field parking lot. You will be able to access Cedar Blvd from that lot.
+        </p>
+
+        <h5>Safety & Accommodations</h5>
+        <p>
+        Intersection monitors are stationed along the route and can assist in the event of an emergency.
+        <br/>
+        <b>NEW ---</b> Mile Marks will be spray painted on the road in orange and a 5k split clock will be visible on the side of the road.
+        <br/>
+        2 water stops are available on the 10K course. Water and fruit will be available at the finish line, as well as your medal. <b>Joe Brand, voice of the Pittsburgh Penguins,</b> will be at the finish line to greet you.
+        </p>
+
+        <h5>Awards</h5>
+        <p>
+        Fleet Feet has generously sponsored our prizes as well as our Packet Pick Up event.  
+        Prizes will be awarded to the overall male finisher and overall female finisher.  
+        Age and gender category winners will also be recognized at the awards ceremony following the race.
         </p>
 
         <br/>
         <br/>
-        <h3>See you on Saturday!</h3>
+        <h3>Thanks for choosing this race and supporting our mission to honor Martha's legacy and build playgrounds; we are so grateful. See you on Saturday!</h3>
       </div>
     </div>
 
@@ -347,7 +360,7 @@ get_header(); ?>
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
             -->
-            We hope you'll join us for the 30th annual Martha's Run on <span><b>Saturday April 12th 2025</b></span>.
+            We hope you'll join us for the 29th annual Martha's Run on <span><b>Saturday April 12th 2025</b></span>.
 
             </p>
             <p>
@@ -379,7 +392,7 @@ get_header(); ?>
 
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
               -->
-              <div class="course-map-caption">The 30th annual Martha's Run is on <span><b>Saturday April 12th 2025!</b></span></div>
+              <div class="course-map-caption">The 29th annual Martha's Run is on <span><b>Saturday April 12th 2025!</b></span></div>
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
