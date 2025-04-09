@@ -62,7 +62,7 @@ get_header(); ?>
 
         <br/>
 
-        <b>Saturday April 11 (8-8:30am)</b>
+        <b>Saturday April 12 (8-8:30am)</b>
         <p class="address">
         Mt. Lebanon Rec Center<br/>
         900 Cedar Blvd<br/>
