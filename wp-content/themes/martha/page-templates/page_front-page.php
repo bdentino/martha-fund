@@ -39,17 +39,18 @@ get_header(); ?>
 
         <h5>Online Registration</h5>
 
-        <p>Online registration will remain open until 11:59pm on April 10th. <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register Now!</a></p>
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
+        <p>Online registration will remain open until 11:59pm on April 10th. <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register Now!</a></p>
         -->
 
-        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
         <p>Online registration is now closed. See below for in-person registration details.</p>
+        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
         -->
+        </br>
 
-        <!-- <h5>Race Results</h5>
+        <h5>Race Results</h5>
         <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
-        <br/> -->
+        <br/>
 
         <h5>Walk-in Registration and Packet Pick Up</h5>
 
@@ -89,8 +90,8 @@ get_header(); ?>
         <br/>
         <h5>Awards</h5>
         <p>
-        Fleet Feet has generously sponsored our prizes as well as our Packet Pick Up event.  
-        Prizes will be awarded to the overall male finisher and overall female finisher.  
+        Fleet Feet has generously sponsored our prizes as well as our Packet Pick Up event.
+        Prizes will be awarded to the overall male finisher and overall female finisher.
         Age and gender category winners will also be recognized at the awards ceremony following the race.
         </p>
 
@@ -309,16 +310,16 @@ get_header(); ?>
           <!-- <div class="bit-1"><div class="martha-run-logo"></div></div> -->
 
           <!-- AFTER DATE FINALIZED
-          -->
           <div class="bit-1">
             <div class="register-banner-text">Registration for 2025 opens soon!</div>
           </div>
+          -->
 
           <!-- IMMEDIATELY AFTER REGISTRATION OPEN
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">Early Bird Registration is Open!</div>
-            <div class="registration-card"><a href="https://runsignup.com/marthasrun" class="roll-button">Sign Up Now</a></div>
+            <div class="registration-card"><a href="https://secure.getmeregistered.com/get_information.php?event_id=141046" class="roll-button">Sign Up Now</a></div>
           </div>
           -->
 
@@ -326,14 +327,14 @@ get_header(); ?>
           <div class="bit-2"><div class="martha-run-logo"></div></div>
           <div class="bit-2">
             <div class="register-banner-text">See you on March 30th 2024 for Martha's Run 2024!</div>
-            <div class="registration-card"><a href="https://runsignup.com/marthasrun" class="roll-button">Register Now</a></div>
+            <div class="registration-card"><a href="https://secure.getmeregistered.com/get_information.php?event_id=141046" class="roll-button">Register Now</a></div>
           </div>
           -->
 
-          <!-- AFTER REGISTRATION CLOSED
           <div class="bit-1">
-            <div class="register-banner-text">See you on April 11th for Martha's Run 2020!</b></div>
+            <div class="register-banner-text">See you on April 12th for Martha's Run 2025!</b></div>
           </div>
+          <!-- AFTER REGISTRATION CLOSED
           -->
 
         </div>
@@ -357,7 +358,7 @@ get_header(); ?>
             conclusion of the 10K.
 
             <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
-            <a href="https://runsignup.com/marthasrun">Register online today</a> and join us for the 29th annual Martha's Run on <span><b>Saturday March 30th, 2024.</b></span>
+            <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register online today</a> and join us for the 29th annual Martha's Run on <span><b>Saturday March 30th, 2024.</b></span>
             -->
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
@@ -385,7 +386,7 @@ get_header(); ?>
 
               <!-- AFTER REGISTRATION OPEN / BEFORE REGISTRATION CLOSE
               <div class="course-map-caption">
-                <a href="https://runsignup.com/marthasrun">Register online today</a> for the 29th annual Martha's Run on <span><b>Saturday March 30th, 2024!</b></span>
+                <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register online today</a> for the 29th annual Martha's Run on <span><b>Saturday March 30th, 2024!</b></span>
               </div>
               -->
 

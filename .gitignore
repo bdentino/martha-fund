@@ -5,3 +5,4 @@ mariadb/
 rr-theme/
 .DS_Store
 db/
+.vscode
