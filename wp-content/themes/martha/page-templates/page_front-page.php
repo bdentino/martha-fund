@@ -43,8 +43,8 @@ get_header(); ?>
         <p>Online registration will remain open until 11:59pm on April 10th. <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register Now!</a></p>
         -->
 
-        <p>Online registration is now closed. See below for in-person registration details.</p>
         <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
+        <p>Online registration is now closed. See below for in-person registration details.</p>
         -->
         </br>
 
@@ -332,7 +332,7 @@ get_header(); ?>
           -->
 
           <div class="bit-1">
-            <div class="register-banner-text">See you on April 12th for Martha's Run 2025!</b></div>
+            <div class="register-banner-text">See you in April for Martha's Run 2026!</b></div>
           </div>
           <!-- AFTER REGISTRATION CLOSED
           -->
@@ -362,8 +362,8 @@ get_header(); ?>
             -->
 
             <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
+            We hope you'll join us for the 30th annual Martha's Run in <span><b>April 2026</b></span>.
             -->
-            We hope you'll join us for the 29th annual Martha's Run on <span><b>Saturday April 12th 2025</b></span>.
 
             </p>
             <p>
@@ -395,7 +395,7 @@ get_header(); ?>
 
               <!-- AFTER REGISTRATION CLOSE / UPDATE ON DATE FINALIZED
               -->
-              <div class="course-map-caption">The 29th annual Martha's Run is on <span><b>Saturday April 12th 2025!</b></span></div>
+              <div class="course-map-caption">The 30th annual Martha's Run will be held in <span><b>April 2026!</b></span></div>
 
               <div class="course-map" style="background-image:url(https://cldup.com/mopMWqGNbn.png)"></div>
             </div>
