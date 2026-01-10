@@ -17,10 +17,10 @@
 <meta property="og:title" content="The Martha Fund"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="http://themarthafund.org"/>
-<meta property="og:image" content="<?php echo esc_url(get_template_directory_uri() . '/images/runners/kids2-bw.jpeg'); ?>"/>
+<meta property="og:image" content="<?php echo esc_url(get_template_directory_uri() . '/images/30ylogo.jpeg'); ?>"/>
 <meta property="og:site_name" content="The Martha Fund"/>
 <meta property="og:description"
-      content="Register today for Martha's Run 2020 and join us at 9:00am on Saturday, April 11th for the toughest 10K in Pittsburgh!"/>
+      content="Register today for Martha's Run 2026 and join us at 9:00am on Saturday, April 11th for the toughest 10K in Pittsburgh!"/>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) : ?>
@@ -119,7 +119,7 @@
 
 	<div class="header-image">
 		<?php martha_header_overlay(); ?>
-		<img class="header-inner" src="http://martha.tno.me/wp-content/themes/martha/images/runners/kids2-bw.jpeg" width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="<?php bloginfo('name'); ?>">
+		<img class="header-inner" src="http://martha.tno.me/wp-content/themes/martha/images/30ylogo.jpeg" width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="<?php bloginfo('name'); ?>">
 	</div>
 
 	<div id="content" class="page-wrap">
