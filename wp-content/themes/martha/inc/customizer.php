@@ -239,7 +239,7 @@ function martha_customize_register( $wp_customize ) {
     $wp_customize->add_setting(
         'slider_image_1',
         array(
-            'default' => get_template_directory_uri() . '/images/runners/kids2-bw.jpeg',
+            'default' => get_template_directory_uri() . '/images/30ylogo.jpeg',
             'sanitize_callback' => 'esc_url_raw',
         )
     );

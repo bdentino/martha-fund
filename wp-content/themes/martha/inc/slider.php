@@ -57,7 +57,7 @@ function martha_slider_template() {
 	<div id="slideshow" class="header-slider" data-speed="<?php echo esc_attr($speed); ?>">
 	    <div class="slides-container">
 		    <?php
-			    if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/runners/kids2-bw.jpeg') ) {
+			    if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/30ylogo.jpeg') ) {
 					echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_1', 'https://cldup.com/lBZOyfRp5w.jpeg')) . ');"></div>';
 
 				}
@@ -79,7 +79,7 @@ function martha_slider_template() {
         <div class="text-slider-section">
             <div class="text-slider" data-speed="<?php echo esc_attr($text_speed); ?>" data-slideshow="<?php echo esc_attr($slide_toggle); ?>">
                 <ul class="slide-text slides">
-                	<?php if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/runners/kids2-bw.jpeg') ) : ?>
+                	<?php if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/30ylogo.jpeg') ) : ?>
                     <li>
                         <div class="contain">
                             <h2 class="maintitle"><?php echo esc_html($slider_title_1); ?></h2>
