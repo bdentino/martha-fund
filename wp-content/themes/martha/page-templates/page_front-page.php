@@ -17,28 +17,30 @@ get_header(); ?>
 
     <!-- AFTER SCHEDULE FINALIZED (enable popup() in main.js) -->
     <?php
-    $martha_race_flyer_pdf = 'race day flyer 2026 2.png';
-    $martha_upload         = get_template_directory_uri();
-    $martha_flyer_pdf_url  = trailingslashit( $martha_upload ) . trailingslashit( 'images' ) . rawurlencode( $martha_race_flyer_pdf );
+    $martha_flyer_image_file = 'race day flyer 2026 2.png';
+    $martha_flyer_image_url  = trailingslashit( get_template_directory_uri() ) . trailingslashit( 'images' ) . rawurlencode( $martha_flyer_image_file );
     ?>
     <div class="popup">
       <div class="popup-content popup-content--pdf">
         <div class="popup-close">CLOSE</div>
         <h3 class="popup-pdf-heading"><span class="popup-title">Martha's Run</span> — Race day flyer</h3>
-        <?php if ( $martha_flyer_pdf_url ) : ?>
-        <div class="popup-pdf-wrap">
-          <iframe
-            class="popup-pdf-frame"
-            src="<?php echo esc_url( $martha_flyer_pdf_url ); ?>#view=FitH"
-            title="<?php echo esc_attr__( 'Race day flyer (PDF)', 'martha' ); ?>"></iframe>
+        <?php if ( $martha_flyer_image_url ) : ?>
+        <div class="popup-flyer-wrap">
+          <img
+            class="popup-flyer-img"
+            src="<?php echo esc_url( $martha_flyer_image_url ); ?>"
+            alt="<?php echo esc_attr__( 'Martha\'s Run race day flyer', 'martha' ); ?>"
+            decoding="async"
+            loading="eager"
+          />
         </div>
         <p class="popup-pdf-fallback">
-          <a href="<?php echo esc_url( $martha_flyer_pdf_url ); ?>" target="_blank" rel="noopener noreferrer">
-            <?php esc_html_e( 'Open or download the PDF', 'martha' ); ?>
+          <a href="<?php echo esc_url( $martha_flyer_image_url ); ?>" target="_blank" rel="noopener noreferrer">
+            <?php esc_html_e( 'Open full size in a new tab', 'martha' ); ?>
           </a>
         </p>
         <?php else : ?>
-        <p class="popup-pdf-missing"><?php esc_html_e( 'Flyer PDF is not available.', 'martha' ); ?></p>
+        <p class="popup-pdf-missing"><?php esc_html_e( 'Flyer image is not available.', 'martha' ); ?></p>
         <?php endif; ?>
       </div>
     </div>
