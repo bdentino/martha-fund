@@ -16,88 +16,32 @@ get_header(); ?>
   <main id="main" class="site-main" role="main">
 
     <!-- AFTER SCHEDULE FINALIZED (enable popup() in main.js) -->
+    <?php
+    $martha_race_flyer_pdf = 'race day flyer 2026 pdf.pdf';
+    $martha_upload         = wp_upload_dir();
+    $martha_flyer_pdf_url  = isset( $martha_upload['baseurl'], $martha_upload['error'] ) && ! $martha_upload['error']
+      ? trailingslashit( $martha_upload['baseurl'] ) . rawurlencode( $martha_race_flyer_pdf )
+      : '';
+    ?>
     <div class="popup">
-      <div class="popup-content">
+      <div class="popup-content popup-content--pdf">
         <div class="popup-close">CLOSE</div>
-        <h3><span class="popup-title">Martha's Run 2025</span> is almost here!</h3>
-        <h5>Race Day Schedule</h5>
-        <p>
-
-
-        <div class="popup-table">
-        <table>
-        <tr><td>Warmup & National Anthem</td><td>8:45am</td></tr>
-        <tr><td>10k</td><td>9:00am</td></tr>
-        <tr><td>2-Mile Fun Run</td><td>9:00am</td></tr>
-        <tr><td>1-Mile Memorial Walk</td><td>9:00am</td></tr>
-        <tr><td>Children's Races</td><td>9:00am</td></tr>
-        <tr><td>Awards Ceremony with food, water, and prizes!</td><td>After the 10k</td></tr>
-        </table>
-        <br/>
+        <h3 class="popup-pdf-heading"><span class="popup-title">Martha's Run</span> — Race day flyer</h3>
+        <?php if ( $martha_flyer_pdf_url ) : ?>
+        <div class="popup-pdf-wrap">
+          <iframe
+            class="popup-pdf-frame"
+            src="<?php echo esc_url( $martha_flyer_pdf_url ); ?>#view=FitH"
+            title="<?php echo esc_attr__( 'Race day flyer (PDF)', 'martha' ); ?>"></iframe>
         </div>
-
-
-        <h5>Online Registration</h5>
-
-        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION OPENED / BEFORE REGISTRATION CLOSED
-        <p>Online registration will remain open until 11:59pm on April 10th. <a href="https://secure.getmeregistered.com/get_information.php?event_id=141046">Register Now!</a></p>
-        -->
-
-        <!-- AFTER SCHEDULE FINALIZED + AFTER REGISTRATION CLOSED
-        <p>Online registration is now closed. See below for in-person registration details.</p>
-        -->
-        </br>
-
-        <h5>Race Results</h5>
-        <p>Race results will be available shortly after the race at <a href="http://www.runhigh.com">The Runner's High</a> website.</p>
-        <br/>
-
-        <h5>Walk-in Registration and Packet Pick Up</h5>
-
-        <b>Friday, Apr 11 (4-7pm)</b><br/>
-        <p class="address">
-        Fleet Feet Pittsburgh<br/>
-        1751 N. Highland Rd.<br/>
-        Pittsburgh, PA 15241<br/>
+        <p class="popup-pdf-fallback">
+          <a href="<?php echo esc_url( $martha_flyer_pdf_url ); ?>" target="_blank" rel="noopener noreferrer">
+            <?php esc_html_e( 'Open or download the PDF', 'martha' ); ?>
+          </a>
         </p>
-
-        <br/>
-
-        <b>Saturday April 12 (8-8:30am)</b>
-        <p class="address">
-        Mt. Lebanon Rec Center<br/>
-        900 Cedar Blvd<br/>
-        Pittsburgh, PA 15228<br/>
-        </p>
-
-        <br/>
-
-        <h5>Race Day Parking</h5>
-        <p>
-        Because of some road closures, we recommend parking in the Dixon Field parking lot. You will be able to access Cedar Blvd from that lot.
-        </p>
-
-        <br/>
-        <h5>Safety & Accommodations</h5>
-        <p>
-        Intersection monitors are stationed along the route and can assist in the event of an emergency.
-        <br/>
-        <b>NEW ---</b> Mile Marks will be spray painted on the road in orange and a 5k split clock will be visible on the side of the road.
-        <br/>
-        2 water stops are available on the 10K course. Water and fruit will be available at the finish line, as well as your medal. <b>Joe Brand, voice of the Pittsburgh Penguins,</b> will be at the finish line to greet you.
-        </p>
-
-        <br/>
-        <h5>Awards</h5>
-        <p>
-        Fleet Feet has generously sponsored our prizes as well as our Packet Pick Up event.
-        Prizes will be awarded to the overall male finisher and overall female finisher.
-        Age and gender category winners will also be recognized at the awards ceremony following the race.
-        </p>
-
-        <br/>
-        <br/>
-        <b>Thanks for choosing this race and supporting our mission to honor Martha's legacy and build playgrounds; we are so grateful. See you on Saturday!</>
+        <?php else : ?>
+        <p class="popup-pdf-missing"><?php esc_html_e( 'Flyer PDF is not available.', 'martha' ); ?></p>
+        <?php endif; ?>
       </div>
     </div>
 
