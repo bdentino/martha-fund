@@ -19,9 +19,7 @@ get_header(); ?>
     <?php
     $martha_race_flyer_pdf = 'race day flyer 2026 pdf.pdf';
     $martha_upload         = get_template_directory_uri();
-    $martha_flyer_pdf_url  = isset( $martha_upload['baseurl'], $martha_upload['error'] ) && ! $martha_upload['error']
-      ? trailingslashit( $martha_upload['baseurl'] ) . trailingslashit( 'images' ) . rawurlencode( $martha_race_flyer_pdf )
-      : '';
+    $martha_flyer_pdf_url  = $martha_upload . trailingslashit( 'images' ) . rawurlencode( $martha_race_flyer_pdf );
     ?>
     <div class="popup">
       <div class="popup-content popup-content--pdf">
