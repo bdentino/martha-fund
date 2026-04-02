@@ -17,10 +17,10 @@ get_header(); ?>
 
     <!-- AFTER SCHEDULE FINALIZED (enable popup() in main.js) -->
     <?php
-    $martha_race_flyer_pdf = 'images/race day flyer 2026 pdf.pdf';
+    $martha_race_flyer_pdf = 'race day flyer 2026 pdf.pdf';
     $martha_upload         = get_template_directory_uri();
     $martha_flyer_pdf_url  = isset( $martha_upload['baseurl'], $martha_upload['error'] ) && ! $martha_upload['error']
-      ? trailingslashit( $martha_upload['baseurl'] ) . rawurlencode( $martha_race_flyer_pdf )
+      ? trailingslashit( $martha_upload['baseurl'] ) . trailingslashit( 'images' ) . rawurlencode( $martha_race_flyer_pdf )
       : '';
     ?>
     <div class="popup">
