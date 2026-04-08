@@ -17,7 +17,7 @@ get_header(); ?>
 
     <!-- AFTER SCHEDULE FINALIZED (enable popup() in main.js) -->
     <?php
-    $martha_flyer_image_file = 'race day flyer 2026 2.png';
+    $martha_flyer_image_file = 'race day flyer 2026 3.png';
     $martha_flyer_image_url  = trailingslashit( get_template_directory_uri() ) . trailingslashit( 'images' ) . rawurlencode( $martha_flyer_image_file );
     ?>
     <div class="popup">
