@@ -20,7 +20,7 @@ get_header(); ?>
     $martha_flyer_image_file = 'race day flyer 2026 3.png';
     $martha_flyer_image_url  = trailingslashit( get_template_directory_uri() ) . trailingslashit( 'images' ) . rawurlencode( $martha_flyer_image_file );
     ?>
-    <div class="popup">
+    <!-- <div class="popup">
       <div class="popup-content popup-content--pdf">
         <div class="popup-close">CLOSE</div>
         <h3 class="popup-pdf-heading"><span class="popup-title">Martha's Run</span> — Race day flyer</h3>
@@ -43,7 +43,7 @@ get_header(); ?>
         <p class="popup-pdf-missing"><?php esc_html_e( 'Flyer image is not available.', 'martha' ); ?></p>
         <?php endif; ?>
       </div>
-    </div>
+    </div> -->
 
     <div class="first-row">
 
