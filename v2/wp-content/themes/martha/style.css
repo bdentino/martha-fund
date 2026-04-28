@@ -1,0 +1,727 @@
+/*
+Theme Name: Martha
+Theme URI: https://marthafund.local
+Author: Martha Fund
+Author URI: https://marthafund.local
+Description: Martha Fund WordPress theme — v2 development scaffold.
+Version: 2.0.0
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: martha
+*/
+
+/* ---------------------------------------------------------------------------
+ * Base
+ * ------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*
+ * The <html> background color is also set from PHP to the hero color, so the
+ * macOS/iOS overscroll bounce above the page reveals a matching color instead
+ * of the browser's default white. `overscroll-behavior-y: none` additionally
+ * prevents scroll chaining / pull-to-refresh on browsers that honor it.
+ */
+html {
+	overscroll-behavior-y: none;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+	color: #1a1a1a;
+	background: #fff;
+	line-height: 1.5;
+
+	/*
+	 * Full-bleed blocks (.alignfull) use `width: 100vw` which on some browsers
+	 * includes the scrollbar gutter. `overflow-x: clip` prevents the resulting
+	 * horizontal scrollbar without breaking position: fixed (unlike overflow-x: hidden).
+	 */
+	overflow-x: clip;
+}
+
+.screen-reader-text {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* ---------------------------------------------------------------------------
+ * Site header
+ *   - Pinned to top of the viewport.
+ *   - Background opacity is driven by the --header-bg-opacity custom property,
+ *     which is updated from JS based on scroll position.
+ * ------------------------------------------------------------------------- */
+
+.site-header {
+	--header-bg-opacity: 0;
+	--header-height: 72px;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+
+	background-color: rgba(0, 0, 0, var(--header-bg-opacity));
+	box-shadow: 0 1px 0 rgba(255, 255, 255, calc(var(--header-bg-opacity) * 0.08));
+
+	transition: background-color 150ms linear, box-shadow 150ms linear;
+	color: #fff;
+}
+
+.site-header__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	height: var(--header-height);
+}
+
+.site-header__title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: inherit;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.site-header__title:hover,
+.site-header__title:focus-visible {
+	opacity: 0.85;
+}
+
+/* ---------------------------------------------------------------------------
+ * Primary nav
+ * ------------------------------------------------------------------------- */
+
+.site-header__nav {
+	display: flex;
+	align-items: center;
+}
+
+.site-header__menu {
+	display: flex;
+	align-items: center;
+	gap: 1.75rem;
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-header__menu a {
+	display: inline-block;
+	padding: 0.5rem 0;
+
+	color: inherit;
+	font-size: 0.95rem;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 0.01em;
+
+	border-bottom: 2px solid transparent;
+	transition: border-color 150ms linear, opacity 150ms linear;
+}
+
+.site-header__menu a:hover,
+.site-header__menu a:focus-visible,
+.site-header__menu .current-menu-item > a {
+	border-bottom-color: currentColor;
+}
+
+/*
+ * The last item in the primary menu acts as a CTA, styled to match the hero
+ * button (filled in --hero-button-color, 8px radius, hover fades the bg out
+ * and recolors the text to the border color).
+ *
+ * `.menu-item:last-child > a` is matched as a "menu-item-cta" via this
+ * `:where()` selector; specificity stays low so the existing menu-link rules
+ * defeat us only where intentionally overridden.
+ */
+.site-header__menu > li:last-child > a {
+	padding: 0.5rem 1.25rem;
+
+	color: #fff;
+	background-color: var(--hero-button-color, #f43d6e);
+	border: 2px solid var(--hero-button-color, #f43d6e);
+	border-radius: 8px;
+
+	transition: background-color 200ms ease, color 200ms ease,
+		border-color 200ms ease;
+}
+
+.site-header__menu > li:last-child > a:hover,
+.site-header__menu > li:last-child > a:focus-visible,
+.site-header__menu > li:last-child.current-menu-item > a {
+	color: var(--hero-button-color, #f43d6e);
+	background-color: transparent;
+	border-bottom-color: var(--hero-button-color, #f43d6e);
+}
+
+/* ---------------------------------------------------------------------------
+ * Mobile toggle
+ * ------------------------------------------------------------------------- */
+
+.site-header__toggle {
+	display: none;
+
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	color: inherit;
+}
+
+.site-header__toggle-bar {
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin: 4px 0;
+	background: currentColor;
+	transition: transform 150ms ease, opacity 150ms ease;
+}
+
+@media (max-width: 768px) {
+	.site-header__toggle {
+		display: inline-block;
+		order: 2;
+	}
+
+	.site-header__menu {
+		position: absolute;
+		top: var(--header-height);
+		left: 0;
+		right: 0;
+
+		flex-direction: column;
+		align-items: stretch;
+		gap: 0;
+
+		padding: 1rem 1.5rem;
+		/* background: rgba(0, 0, 0, 0.95); */
+
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 200ms ease;
+	}
+
+	.site-header__menu a {
+		padding: 0.75rem 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	}
+
+	.site-header.is-open .site-header__menu {
+		max-height: 80vh;
+	}
+
+	.site-header.is-open .site-header__toggle-bar:nth-child(2) {
+		transform: translateY(6px) rotate(45deg);
+	}
+	.site-header.is-open .site-header__toggle-bar:nth-child(3) {
+		opacity: 0;
+	}
+	.site-header.is-open .site-header__toggle-bar:nth-child(4) {
+		transform: translateY(-6px) rotate(-45deg);
+	}
+}
+
+/* ---------------------------------------------------------------------------
+ * Hero section
+ *
+ *   - Fills the viewport on load (100vh / 100dvh).
+ *   - If the viewport is shorter than the hero's intrinsic content height,
+ *     the hero grows to fit and overflows past the fold instead of clipping.
+ *   - Content is vertically centered in the visible area below the fixed
+ *     header (top padding accounts for the header height).
+ * ------------------------------------------------------------------------- */
+
+.hero {
+	--hero-min-height: 100vh;
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	min-height: var(--hero-min-height);
+
+	padding: calc(var(--header-height, 72px) + 2rem) 1.5rem 3rem;
+
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+@supports (min-height: 100dvh) {
+	.hero {
+		--hero-min-height: 100dvh;
+	}
+}
+
+/*
+ * Background image layer. Sits behind .hero__inner and has the SVG duotone
+ * filter applied. We use a dedicated element (rather than a pseudo) so the
+ * filter only affects the image, not the hero text.
+ *
+ * `background-attachment: fixed` produces the parallax effect: as the page
+ * scrolls, the background image stays anchored to the viewport while the
+ * hero content scrolls past it. The hero's own `overflow: hidden` clips the
+ * fixed bg to the hero's bounds.
+ */
+.hero__background {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+
+	background-image: var(--hero-bg-image);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	filter: url(#martha-hero-duotone);
+	pointer-events: none;
+}
+
+/*
+ * Touch devices (notably iOS Safari) ignore or perform poorly with
+ * `background-attachment: fixed`. Fall back to a normally-scrolling bg there,
+ * and also when the user has requested reduced motion.
+ */
+@media (hover: none), (prefers-reduced-motion: reduce) {
+	.hero__background {
+		background-attachment: scroll;
+	}
+}
+
+.hero__inner {
+	position: relative;
+	z-index: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+.hero__heading {
+	margin: 0;
+	font-size: clamp(2rem, 5vw + 1rem, 4rem);
+	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: -0.01em;
+}
+
+.hero__separator {
+	display: block;
+	width: 72px;
+	height: 3px;
+	margin: 0.25rem 0;
+	background-color: var(--hero-button-color);
+	border-radius: 2px;
+}
+
+.hero__subheading {
+	margin: 0;
+	font-size: clamp(1rem, 1vw + 0.875rem, 1.375rem);
+	line-height: 1.5;
+	color: rgba(255, 255, 255, 0.85);
+	max-width: 60ch;
+}
+
+.hero__button {
+	display: inline-block;
+	margin-top: 0.75rem;
+	padding: 0.875rem 2rem;
+
+	background-color: var(--hero-button-color);
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 0.01em;
+
+	border: 2px solid var(--hero-button-color);
+	border-radius: 8px;
+	transition: transform 150ms ease, background-color 200ms ease,
+		color 200ms ease, box-shadow 150ms ease;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.hero__button:hover,
+.hero__button:focus-visible {
+	transform: translateY(-1px);
+	background-color: transparent;
+	color: var(--hero-button-color);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.24);
+}
+
+.hero__footnote {
+	margin: 0.5rem 0 0;
+	font-size: 0.85rem;
+	color: rgba(255, 255, 255, 0.65);
+	letter-spacing: 0.02em;
+}
+
+@media (max-width: 480px) {
+	.hero {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+/* ---------------------------------------------------------------------------
+ * Editable page section (block editor content)
+ *
+ *   - `.page-section` is a generic wrapper that constrains content to a
+ *     readable column while still allowing `.alignwide` and `.alignfull`
+ *     blocks to break out, matching theme.json's contentSize / wideSize.
+ *   - The block editor on the backend uses the same widths via theme.json,
+ *     so what you see while editing matches the frontend.
+ * ------------------------------------------------------------------------- */
+
+.page-section {
+	padding: 4rem 1.5rem;
+	background: #fff;
+	color: #1a1a1a;
+}
+
+.entry__content {
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+.entry__content > .alignwide {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.entry__content > .alignfull {
+	max-width: none;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+	width: 100vw;
+}
+
+.entry__content > * + * {
+	margin-top: 1.25rem;
+}
+
+.entry__content h2 {
+	font-size: clamp(1.5rem, 2vw + 1rem, 2.25rem);
+	line-height: 1.2;
+	margin-top: 2.5rem;
+}
+
+.entry__content h3 {
+	font-size: clamp(1.25rem, 1vw + 1rem, 1.625rem);
+	line-height: 1.3;
+	margin-top: 2rem;
+}
+
+.entry__content p,
+.entry__content ul,
+.entry__content ol {
+	font-size: 1.0625rem;
+	line-height: 1.65;
+}
+
+.entry__content img,
+.entry__content .wp-block-image img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.entry__content blockquote,
+.entry__content .wp-block-quote {
+	border-left: 3px solid #0f1419;
+	padding-left: 1rem;
+	margin-left: 0;
+	font-style: italic;
+	color: #444;
+}
+
+.page-section__notice {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1.25rem 1.5rem;
+	border: 1px dashed #d4d4d8;
+	background: #fafafa;
+	color: #555;
+	border-radius: 6px;
+	font-size: 0.95rem;
+}
+
+.page-section__notice a {
+	color: #0f1419;
+	font-weight: 600;
+}
+
+@media (max-width: 600px) {
+	.page-section {
+		padding: 3rem 1rem;
+	}
+}
+
+/* ---------------------------------------------------------------------------
+ * Reduced motion
+ * ------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+	.site-header,
+	.site-header__menu,
+	.site-header__menu a,
+	.site-header__toggle-bar,
+	.hero__button {
+		transition: none;
+	}
+}
+
+
+/* ------------------------------------------------------------
+  * Custom styles
+  * --------------------------------------------------------- */
+
+.fact-icon {
+  max-width: 60px;
+}
+
+span.lead-line {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #f43d6e;
+  padding-right: 4px;
+}
+
+.sliderberg-slides {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.sponsors-grid.is-layout-grid {
+	align-items: center;
+  justify-items: center;
+}
+
+.sponsors-grid .wp-block-image img {
+	max-width: 140px;
+	max-height: 40px;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image {
+	margin: 0;
+	padding: 0;
+
+	/* Pointy-top regular hexagon: height / width = 2 / √3 ≈ 1.1547 */
+	aspect-ratio: 1 / 1.1547;
+
+	clip-path: polygon(
+		50% 0%,
+		100% 25%,
+		100% 75%,
+		50% 100%,
+		0% 75%,
+		0% 25%
+	);
+	overflow: hidden;
+	background: transparent;
+  width: 100% !important;
+	position: relative;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image::after {
+  content: "";
+  position: absolute;
+  inset: -25%;
+	width: 150%;
+	height: 150%;
+  background: linear-gradient(
+    45deg,
+    rgba(11, 77, 134, 0.88) 10%,
+    rgba(5, 71, 140, 0.87) 25%,
+    rgba(7, 36, 117, 0.78) 50%,
+    rgba(234, 42, 85, 0.73) 90%
+  );
+  pointer-events: none; /* let clicks pass through to the link */
+  transition: transform 0.5s;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image:hover::after {
+	transform: rotate(-90deg);
+}
+
+/* Image & link fill the hex mask. */
+.wp-block-gallery.hex-grid .wp-block-image > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image > figcaption {
+	height: 100%;
+	align-content: center;
+	color: #fff;
+	opacity: 0.8;
+	font-size: 1.5rem !important;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	object-fit: cover;
+	border-radius: 0;
+}
+
+.wp-block-gallery.hex-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 25%);
+	grid-auto-rows: 25%;
+	column-gap: 2% !important;
+	row-gap: 15% !important;
+
+	width: 100%;
+	max-width: 100% !important;
+	margin: 0 0;
+	padding: 0;
+	margin-top: 20px !important;
+	justify-items: center;
+	justify-content: center;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(n + 4) {
+	margin-top: 0px !important;
+}
+
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(3n + 1) { grid-column-start: 1; }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(3n + 2) { grid-column-start: 2; }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(3n + 3) { grid-column-start: 3; }
+
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(6n + 1) { justify-self: start; transform: translateX(-24%); }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(6n + 2) { justify-self: start; transform: translateX(-24%); }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(6n + 3) { justify-self: start; transform: translateX(-24%); }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(6n + 4) { justify-self: end; transform: translateX(30%); }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(6n + 5) { justify-self: end; transform: translateX(30%); }
+.wp-block-gallery.hex-grid .wp-block-image:nth-child(6n + 6) { justify-self: end; transform: translateX(30%); }
+
+@media (max-width: 800px) {
+	.wp-block-gallery.hex-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 35%);
+		grid-auto-rows: 25%;
+		column-gap: 2% !important;
+		row-gap: 1.2% !important;
+
+		width: 100%;
+		max-width: 100% !important;
+		margin: 0 0;
+		padding: 0;
+		margin-top: 20px !important;
+		justify-items: center;
+		justify-content: center;
+	}
+
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(n + 3) {
+		margin-top: 0px !important;
+	}
+
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(2n + 1) { grid-column-start: 1; }
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(2n + 2) { grid-column-start: 2; }
+
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(4n + 1) { justify-self: start; transform: translateX(-23%); }
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(4n + 2) { justify-self: start; transform: translateX(-23%); }
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(4n + 3) { justify-self: end; transform: translateX(30%); }
+	.wp-block-gallery.hex-grid .wp-block-image:nth-child(4n + 4) { justify-self: end; transform: translateX(30%); }
+}
+
+div.story-details {
+	background-color: var(--ctlb-story-border-color) !important;
+}
+
+/* ---------------------------------------------------------------------------
+ * Timeline entry animation
+ *
+ *   Each Cool Timeline child is hidden + offset away from the center spine
+ *   on load. When it scrolls into view, JS adds `.is-visible` which animates
+ *   the card back toward the center with a soft bounce.
+ *
+ *   `is-from-left`  -> card lives on the LEFT half, starts further left.
+ *   `is-from-right` -> card lives on the RIGHT half, starts further right.
+ * ------------------------------------------------------------------------- */
+
+.martha-timeline-item {
+	--martha-timeline-distance: 60px;
+	--martha-timeline-delay: 0ms;
+
+	opacity: 0;
+	will-change: transform, opacity;
+	transition:
+		opacity 600ms ease-out var(--martha-timeline-delay),
+		transform 700ms cubic-bezier(0.34, 1.56, 0.64, 1) var(--martha-timeline-delay);
+}
+
+.martha-timeline-item.is-from-left {
+	transform: translate3d(calc(var(--martha-timeline-distance) * -1), 0, 0);
+}
+
+.martha-timeline-item.is-from-right {
+	transform: translate3d(var(--martha-timeline-distance), 0, 0);
+}
+
+.martha-timeline-item.is-visible {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.martha-timeline-item,
+	.martha-timeline-item.is-from-left,
+	.martha-timeline-item.is-from-right {
+		opacity: 1;
+		transform: none;
+		transition: none;
+	}
+}
