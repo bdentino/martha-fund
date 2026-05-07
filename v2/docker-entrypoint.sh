@@ -84,11 +84,11 @@ export WORDPRESS_DB_NAME="$_db_name"
 # ---------------------------------------------------------------------------
 # External theme directory
 #
-# The martha theme is shipped under /opt/martha-themes/martha (outside
-# /var/www/html so it isn't shadowed by anonymous volume mounts on
-# /var/www/html/wp-content). We append it to $wp_theme_directories from
-# wp-config.php; wp-settings.php still registers the default themes
-# directory afterwards, so both locations are scanned.
+# The martha theme is shipped under /var/www/html/custom-themes/martha
+# and registered as an additional theme root. We append it to
+# $wp_theme_directories from wp-config.php; wp-settings.php still
+# registers the default themes directory afterwards, so both locations
+# are scanned.
 #
 # Note: register_theme_directory() lives in wp-includes/theme.php which
 # isn't loaded yet when wp-config.php runs, so we set the underlying
@@ -98,7 +98,7 @@ read -r -d '' _theme_dir_snippet <<'PHP' || true
 if ( ! isset( $wp_theme_directories ) || ! is_array( $wp_theme_directories ) ) {
     $wp_theme_directories = array();
 }
-$wp_theme_directories[] = '/opt/martha-themes';
+$wp_theme_directories[] = '/var/www/html/custom-themes';
 PHP
 if [ -n "${WORDPRESS_CONFIG_EXTRA:-}" ]; then
     export WORDPRESS_CONFIG_EXTRA="${WORDPRESS_CONFIG_EXTRA}
