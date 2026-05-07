@@ -596,7 +596,8 @@ span.lead-line {
 	align-content: center;
 	color: #fff;
 	opacity: 0.8;
-	font-size: 1.5rem !important;
+	font-size: 2.5vmin !important;
+	text-overflow: ellipsis;
 	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
@@ -723,5 +724,11 @@ div.story-details {
 		opacity: 1;
 		transform: none;
 		transition: none;
+	}
+}
+
+@media (max-width: 781px) {
+	.stack-two-col.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+			flex-basis: 40% !important;
 	}
 }
