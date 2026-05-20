@@ -58,7 +58,7 @@ function martha_slider_template() {
 	    <div class="slides-container">
 		    <?php
 			    if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/30ylogo.jpeg') ) {
-					echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_1', 'https://cldup.com/lBZOyfRp5w.jpeg')) . ');"></div>';
+					echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_1', 'https://raw.githubusercontent.com/bdentino/martha-fund/fc1b0d883d0cbfd5343f120523615c5e2d202424/wp-content/themes/martha/images/badge.png')) . ');"></div>';
 
 				}
 			    if ( get_theme_mod('slider_image_2') ) {
